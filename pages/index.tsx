@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import TitleBar from '../components/TitleBar/TitleBar';
 
 const Home = () => {
 	return (
@@ -8,9 +9,7 @@ const Home = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main className='h-6 w-full text-center'>
-				<h1>Patfolio</h1>
-			</main>
+			<TitleBar />
 		</div>
 	);
 };

@@ -19,14 +19,14 @@ export const WindowButtons = styled.div`
 `;
 
 const WindowButton = css`
-	height: 0.8rem;
-	width: 0.8rem;
+	height: 0.75rem;
+	width: 0.75rem;
 	border-radius: 9999px;
 `;
 
 const IconStyles = css`
-	height: 0.8rem;
-	width: 0.8rem;
+	height: 0.75rem;
+	width: 0.75rem;
 	padding: 0.1rem;
 	opacity: 0;
 

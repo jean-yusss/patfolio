@@ -1,16 +1,23 @@
 import Head from 'next/head';
+import ActivityBar from '../components/ActivityBar/ActivityBar';
 import TitleBar from '../components/TitleBar/TitleBar';
+
+import * as S from '../styles/HomeStyles';
 
 const Home = () => {
 	return (
-		<div className='h-screen w-screen overflow-hidden'>
+		<S.HomeContainer>
 			<Head>
 				<title>Patfolio</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
 			<TitleBar />
-		</div>
+
+			<S.MainContainer>
+				<ActivityBar />
+			</S.MainContainer>
+		</S.HomeContainer>
 	);
 };
 

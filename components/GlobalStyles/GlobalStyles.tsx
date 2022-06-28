@@ -6,6 +6,8 @@ const CustomStyles = createGlobalStyle`
 		--activityBar-hoverForeground: #f8f8f2;
 		--activityBar-inactiveForeground: #6272a4;
 
+		--list-hoverBackground: #44475a75;
+
 		--statusBar-background: #191a21;
 		--statusBar-foreground: #f8f8f2;
 		--statusBar-hoverBackground: #ffffff1f;

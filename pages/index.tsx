@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import ActivityBar from '../components/ActivityBar/ActivityBar';
+import SideBar from '../components/SideBar/SideBar';
 import StatusBar from '../components/StatusBar/StatusBar';
 import TitleBar from '../components/TitleBar/TitleBar';
 
@@ -17,6 +18,7 @@ const Home = () => {
 
 			<S.MainContainer>
 				<ActivityBar />
+				<SideBar />
 			</S.MainContainer>
 
 			<StatusBar />

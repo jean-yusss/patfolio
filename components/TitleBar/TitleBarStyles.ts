@@ -24,7 +24,7 @@ const WindowButton = css`
 	border-radius: 9999px;
 `;
 
-const IconStyles = css`
+const TitleBarIcons = css`
 	height: 0.75rem;
 	width: 0.75rem;
 	padding: 0.1rem;
@@ -41,7 +41,7 @@ export const CloseButton = styled.div`
 `;
 
 export const CloseIcon = styled(HiOutlineX)`
-	${IconStyles};
+	${TitleBarIcons};
 `;
 
 export const MinimizeButton = styled.div`
@@ -50,7 +50,7 @@ export const MinimizeButton = styled.div`
 `;
 
 export const MinimizeIcon = styled(HiOutlineMinus)`
-	${IconStyles};
+	${TitleBarIcons};
 `;
 
 export const MaximizeButton = styled.div`
@@ -59,7 +59,7 @@ export const MaximizeButton = styled.div`
 `;
 
 export const MaximizeIcon = styled(HiOutlinePlus)`
-	${IconStyles};
+	${TitleBarIcons};
 `;
 
 export const TitleBarTitle = styled.h1`

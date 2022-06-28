@@ -19,7 +19,7 @@ export const BottomSection = styled.div`
 	align-self: flex-end;
 `;
 
-const IconStyles = css`
+const ActivityBarIcons = css`
 	height: 3rem;
 	width: 3rem;
 	padding: 0.7rem;
@@ -31,21 +31,21 @@ const IconStyles = css`
 `;
 
 export const FilesIcon = styled(VscFiles)`
-	${IconStyles}
+	${ActivityBarIcons}
 `;
 
 export const MailIcon = styled(VscMail)`
-	${IconStyles}
+	${ActivityBarIcons}
 `;
 
 export const CodeIcon = styled(VscCode)`
-	${IconStyles}
+	${ActivityBarIcons}
 `;
 
 export const AccountIcon = styled(VscAccount)`
-	${IconStyles}
+	${ActivityBarIcons}
 `;
 
 export const SettingsIcon = styled(VscSettingsGear)`
-	${IconStyles}
+	${ActivityBarIcons}
 `;

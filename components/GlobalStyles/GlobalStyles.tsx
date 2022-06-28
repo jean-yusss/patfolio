@@ -8,6 +8,10 @@ const CustomStyles = createGlobalStyle`
 
 		--list-hoverBackground: #44475a75;
 
+		--sideBar-background: #21222c;
+		--sideBar-foreground: #f8f8f2;
+		--sideBarSectionHeader-background: #282a36;
+
 		--statusBar-background: #191a21;
 		--statusBar-foreground: #f8f8f2;
 		--statusBar-hoverBackground: #ffffff1f;

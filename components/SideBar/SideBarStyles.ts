@@ -3,11 +3,21 @@ import { VscChevronDown, VscChevronRight, VscEllipsis } from 'react-icons/vsc';
 
 export const SideBarContainer = styled.div`
 	height: 100%;
-	width: 15rem;
+	display: none;
 	background-color: var(--sideBar-background);
 	color: var(--sideBar-foreground);
 	font-size: 0.75rem;
 	line-height: 1rem;
+
+	@media (min-width: 640px) {
+		display: block;
+		width: 12rem;
+	}
+
+	@media (min-width: 1280px) {
+		display: block;
+		width: 15rem;
+	}
 `;
 
 export const ExplorerContainer = styled.div`

@@ -11,3 +11,10 @@ export const MainContainer = styled.main`
 	height: calc(100vh - 3rem);
 	width: 100%;
 `;
+
+export const EditorContainer = styled.div`
+	height: 100%;
+	width: 100%;
+	background-color: var(--editor-background);
+	color: var(--editor-foreground);
+`;

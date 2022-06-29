@@ -2,6 +2,9 @@ import { createGlobalStyle } from 'styled-components';
 
 const CustomStyles = createGlobalStyle`
 	:root {
+		--activityBar-activeBackground: #bd93f910;
+		--activityBar-activeBorder: #ff79c680;
+		--activityBar-activeForeground: #f8f8f2;
 		--activityBar-background: #343746;
 		--activityBar-hoverForeground: #f8f8f2;
 		--activityBar-inactiveForeground: #6272a4;

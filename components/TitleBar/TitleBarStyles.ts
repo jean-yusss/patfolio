@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { HiOutlineX, HiOutlineMinus, HiOutlinePlus } from 'react-icons/hi';
 
 export const TitleBarContainer = styled.header`
 	display: grid;
@@ -24,24 +23,9 @@ const WindowButton = css`
 	border-radius: 9999px;
 `;
 
-const TitleBarIcons = css`
-	height: 0.75rem;
-	width: 0.75rem;
-	padding: 0.1rem;
-	opacity: 0;
-
-	&:hover {
-		opacity: 0.5;
-	}
-`;
-
 export const CloseButton = styled.div`
 	${WindowButton};
 	background-color: #ff605c;
-`;
-
-export const CloseIcon = styled(HiOutlineX)`
-	${TitleBarIcons};
 `;
 
 export const MinimizeButton = styled.div`
@@ -49,17 +33,9 @@ export const MinimizeButton = styled.div`
 	background-color: #ffbd44;
 `;
 
-export const MinimizeIcon = styled(HiOutlineMinus)`
-	${TitleBarIcons};
-`;
-
 export const MaximizeButton = styled.div`
 	${WindowButton};
 	background-color: #00ca4e;
-`;
-
-export const MaximizeIcon = styled(HiOutlinePlus)`
-	${TitleBarIcons};
 `;
 
 export const TitleBarTitle = styled.h1`

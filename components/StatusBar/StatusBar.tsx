@@ -1,21 +1,21 @@
+import getIcon from '../../utils/getIcon';
+
 import * as S from './StatusBarStyles';
 
 const StatusBar = () => (
 	<S.StatusBarContainer>
 		<S.LeftContainer>
 			<S.IconTextContainer>
-				<S.GitIcon />
+				{getIcon('sourceControl')}
 				<S.StatusBarText>main</S.StatusBarText>
 			</S.IconTextContainer>
 
-			<S.IconTextContainer>
-				<S.SyncIcon />
-			</S.IconTextContainer>
+			<S.IconTextContainer>{getIcon('sync')}</S.IconTextContainer>
 
 			<S.Problems>
-				<S.ErrorIcon />
+				{getIcon('error')}
 				<S.StatusBarText>0</S.StatusBarText>
-				<S.WarningIcon />
+				{getIcon('warning')}
 				<S.StatusBarText>0</S.StatusBarText>
 			</S.Problems>
 		</S.LeftContainer>
@@ -38,22 +38,17 @@ const StatusBar = () => (
 			</S.EndOfLineSequence>
 
 			<S.IconTextContainer>
-				<S.BracketsIcon />
+				{getIcon('brackets')}
 				<S.StatusBarText>TypeScript React</S.StatusBarText>
 			</S.IconTextContainer>
 
 			<S.Prettier>
-				<S.PrettierIcon />
+				{getIcon('prettier')}
 				<S.StatusBarText>Prettier</S.StatusBarText>
 			</S.Prettier>
 
-			<S.IconTextContainer>
-				<S.FeedbackIcon />
-			</S.IconTextContainer>
-
-			<S.IconTextContainer>
-				<S.BellIcon />
-			</S.IconTextContainer>
+			<S.IconTextContainer>{getIcon('feedback')}</S.IconTextContainer>
+			<S.IconTextContainer>{getIcon('bell')}</S.IconTextContainer>
 		</S.RightContainer>
 	</S.StatusBarContainer>
 );

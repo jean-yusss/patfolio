@@ -1,17 +1,19 @@
+import getIcon from '../../utils/getIcon';
+
 import * as S from './ActivityBarStyles';
 
 const ActivityBar = () => {
 	return (
 		<S.ActivityBarContainer>
 			<S.TopSection>
-				<S.FilesIcon />
-				<S.MailIcon />
-				<S.CodeIcon />
+				{getIcon('files')}
+				{getIcon('mail')}
+				{getIcon('code')}
 			</S.TopSection>
 
 			<S.BottomSection>
-				<S.AccountIcon />
-				<S.SettingsIcon />
+				{getIcon('account')}
+				{getIcon('settings')}
 			</S.BottomSection>
 		</S.ActivityBarContainer>
 	);

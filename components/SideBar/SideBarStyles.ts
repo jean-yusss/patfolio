@@ -1,5 +1,4 @@
-import styled, { css } from 'styled-components';
-import { VscChevronDown, VscChevronRight, VscEllipsis } from 'react-icons/vsc';
+import styled from 'styled-components';
 
 export const SideBarContainer = styled.div`
 	height: 100%;
@@ -31,21 +30,6 @@ export const Explorer = styled.p`
 	font-weight: 300;
 `;
 
-const SideBarIcons = css`
-	height: 1rem;
-	width: 1rem;
-`;
-
-export const DotsIcon = styled(VscEllipsis)`
-	${SideBarIcons};
-	border-radius: 0.125rem;
-	cursor: pointer;
-
-	&:hover {
-		background-color: var(--list-hoverBackground);
-	}
-`;
-
 export const SectionHeaderContainer = styled.div`
 	display: flex;
 	align-items: center;
@@ -56,14 +40,6 @@ export const SectionHeaderContainer = styled.div`
 	& > * {
 		margin-left: 0.25rem;
 	}
-`;
-
-export const ChevronDownIcon = styled(VscChevronDown)`
-	${SideBarIcons};
-`;
-
-export const ChevronRightIcon = styled(VscChevronRight)`
-	${SideBarIcons};
 `;
 
 export const SectionHeaderTitle = styled.p`

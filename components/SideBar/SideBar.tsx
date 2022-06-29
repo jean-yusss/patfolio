@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import Folder from '../Folder/Folder';
 
+import getIcon from '../../utils/getIcon';
+
 import * as S from './SideBarStyles';
 
 const SideBar = () => {
@@ -11,11 +13,11 @@ const SideBar = () => {
 		<S.SideBarContainer>
 			<S.ExplorerContainer>
 				<S.Explorer>EXPLORER</S.Explorer>
-				<S.DotsIcon />
+				{getIcon('ellipsis')}
 			</S.ExplorerContainer>
 
 			<S.SectionHeaderContainer onClick={() => setIsOpen(!isOpen)}>
-				{isOpen ? <S.ChevronDownIcon /> : <S.ChevronRightIcon />}
+				{isOpen ? getIcon('chevronDown') : getIcon('chevronRight')}
 				<S.SectionHeaderTitle>PATFOLIO</S.SectionHeaderTitle>
 			</S.SectionHeaderContainer>
 

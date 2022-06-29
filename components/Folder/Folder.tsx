@@ -1,30 +1,32 @@
+import getIcon from '../../utils/getIcon';
+
 import * as S from './FolderStyles';
 
 const Folder = () => {
 	return (
 		<S.FolderContainer>
 			<S.FileContainer>
-				<S.ReactIcon />
+				{getIcon('react')}
 				<S.FileText>Home.tsx</S.FileText>
 			</S.FileContainer>
 
 			<S.FileContainer>
-				<S.HTMLIcon />
+				{getIcon('html')}
 				<S.FileText>About.html</S.FileText>
 			</S.FileContainer>
 
 			<S.FileContainer>
-				<S.CSSIcon />
+				{getIcon('css')}
 				<S.FileText>Contact.css</S.FileText>
 			</S.FileContainer>
 
 			<S.FileContainer>
-				<S.JavaScriptIcon />
+				{getIcon('javaScript')}
 				<S.FileText>Projects.js</S.FileText>
 			</S.FileContainer>
 
 			<S.FileContainer>
-				<S.JsonIcon />
+				{getIcon('json')}
 				<S.FileText>Settings.json</S.FileText>
 			</S.FileContainer>
 		</S.FolderContainer>

@@ -1,16 +1,5 @@
 import styled, { css } from 'styled-components';
 
-import {
-	VscBell,
-	VscCheckAll,
-	VscError,
-	VscFeedback,
-	VscSourceControl,
-	VscSymbolNamespace,
-	VscSync,
-	VscWarning
-} from 'react-icons/vsc';
-
 export const StatusBarContainer = styled.footer`
 	height: 1.5rem;
 	width: 100%;
@@ -94,43 +83,6 @@ export const Prettier = styled(IconTextContainer)`
 	@media (min-width: 437px) {
 		display: flex;
 	}
-`;
-
-const StatusBarIcons = css`
-	height: 0.875rem;
-	width: 0.875rem;
-`;
-
-export const GitIcon = styled(VscSourceControl)`
-	${StatusBarIcons}
-`;
-
-export const SyncIcon = styled(VscSync)`
-	${StatusBarIcons}
-`;
-
-export const ErrorIcon = styled(VscError)`
-	${StatusBarIcons}
-`;
-
-export const WarningIcon = styled(VscWarning)`
-	${StatusBarIcons}
-`;
-
-export const BracketsIcon = styled(VscSymbolNamespace)`
-	${StatusBarIcons}
-`;
-
-export const PrettierIcon = styled(VscCheckAll)`
-	${StatusBarIcons}
-`;
-
-export const FeedbackIcon = styled(VscFeedback)`
-	${StatusBarIcons}
-`;
-
-export const BellIcon = styled(VscBell)`
-	${StatusBarIcons}
 `;
 
 export const StatusBarText = styled.p`

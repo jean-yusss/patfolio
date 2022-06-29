@@ -9,25 +9,30 @@ export const FolderContainer = styled.div`
 
 export const HomeFile = styled(File).attrs({
 	file: 'Home.tsx',
-	icon: 'react'
+	icon: 'react',
+	path: '/'
 })``;
 
 export const AboutFile = styled(File).attrs({
 	file: 'About.html',
-	icon: 'html'
+	icon: 'html',
+	path: '/about'
 })``;
 
 export const ContactFile = styled(File).attrs({
 	file: 'Contact.css',
-	icon: 'css'
+	icon: 'css',
+	path: '/contact'
 })``;
 
 export const ProjectsFile = styled(File).attrs({
 	file: 'Projects.js',
-	icon: 'javaScript'
+	icon: 'javaScript',
+	path: '/projects'
 })``;
 
 export const SettingsFile = styled(File).attrs({
 	file: 'Settings.json',
-	icon: 'json'
+	icon: 'json',
+	path: '/settings'
 })``;

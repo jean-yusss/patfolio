@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 import getIcon from '../../utils/getIcon';
 
 import { FileContainer, FileText } from './FileStyles';
@@ -9,13 +11,17 @@ interface Props {
 	path: string;
 }
 
-const File = ({ file, icon, path }: Props) => (
-	<Link href={path}>
-		<FileContainer>
-			{getIcon(icon)}
-			<FileText>{file}</FileText>
-		</FileContainer>
-	</Link>
-);
+const File = ({ file, icon, path }: Props) => {
+	const router = useRouter();
+
+	return (
+		<Link href={path}>
+			<FileContainer path={path} router={router.pathname}>
+				{getIcon(icon)}
+				<FileText>{file}</FileText>
+			</FileContainer>
+		</Link>
+	);
+};
 
 export default File;

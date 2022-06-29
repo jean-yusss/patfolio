@@ -1,11 +1,19 @@
 import styled from 'styled-components';
 
-export const FileContainer = styled.div`
+interface FileProps {
+	path: string;
+	router: string;
+}
+
+export const FileContainer = styled.div<FileProps>`
 	display: flex;
 	align-items: center;
 	padding: 0.375rem;
 	padding-left: 1rem;
 	cursor: pointer;
+
+	${({ path, router }) =>
+		path === router && `background-color: var(--list-activeBackground)`};
 
 	&:hover {
 		background-color: var(--list-hoverBackground);

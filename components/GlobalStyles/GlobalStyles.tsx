@@ -9,6 +9,7 @@ const CustomStyles = createGlobalStyle`
 		--editor-background: #282a36;
 		--editor-foreground: #f8f8f2;
 
+		--list-activeBackground: #44475a75;
 		--list-hoverBackground: #44475a75;
 
 		--sideBar-background: #21222c;

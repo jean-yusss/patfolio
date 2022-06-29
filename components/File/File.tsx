@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import getIcon from '../utils/getIcon';
+import getIcon from '../../utils/getIcon';
 
 import { FileContainer, FileText } from './FileStyles';
 

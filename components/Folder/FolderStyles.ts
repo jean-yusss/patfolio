@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import File from '../../File/File';
+import File from '../File/File';
 
 export const FolderContainer = styled.div`
 	display: flex;

@@ -1,28 +1,33 @@
 import styled from 'styled-components';
 
+import File from '../../File/File';
+
 export const FolderContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 `;
 
-export const FileContainer = styled.div`
-	display: flex;
-	align-items: center;
-	padding: 0.375rem;
-	padding-left: 1rem;
-	cursor: pointer;
+export const HomeFile = styled(File).attrs({
+	file: 'Home.tsx',
+	icon: 'react'
+})``;
 
-	&:hover {
-		background-color: var(--list-hoverBackground);
-	}
+export const AboutFile = styled(File).attrs({
+	file: 'About.html',
+	icon: 'html'
+})``;
 
-	& > * {
-		margin-left: 0.5rem;
-	}
-`;
+export const ContactFile = styled(File).attrs({
+	file: 'Contact.css',
+	icon: 'css'
+})``;
 
-export const FileText = styled.p`
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 400;
-`;
+export const ProjectsFile = styled(File).attrs({
+	file: 'Projects.js',
+	icon: 'javaScript'
+})``;
+
+export const SettingsFile = styled(File).attrs({
+	file: 'Settings.json',
+	icon: 'json'
+})``;

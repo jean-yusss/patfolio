@@ -46,10 +46,18 @@ const getIcon = (icon: string) => {
 			return <S.HtmlIcon />;
 		case 'css':
 			return <S.CssIcon />;
-		case 'javaScript':
+		case 'javascript':
 			return <S.JavaScriptIcon />;
 		case 'json':
 			return <S.JsonIcon />;
+		case 'big-html':
+			return <S.BigHtmlIcon />;
+		case 'big-css':
+			return <S.BigCssIcon />;
+		case 'big-javascript':
+			return <S.BigJavaScriptIcon />;
+		case 'big-typescript':
+			return <S.BigTypeScriptIcon />;
 	}
 };
 

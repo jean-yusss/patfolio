@@ -20,7 +20,7 @@ import {
 	VscWarning
 } from 'react-icons/vsc';
 
-import { SiCss3, SiHtml5, SiJavascript, SiReact } from 'react-icons/si';
+import { SiCss3, SiHtml5, SiJavascript, SiReact, SiTypescript } from 'react-icons/si';
 import { HiOutlineX, HiOutlineMinus, HiOutlinePlus } from 'react-icons/hi';
 
 // ActivityBar icons
@@ -170,4 +170,30 @@ export const FeedbackIcon = styled(VscFeedback)`
 
 export const BellIcon = styled(VscBell)`
 	${StatusBarIcons}
+`;
+
+// About Page icons
+const AboutIcons = css`
+	height: 1.5rem;
+	width: 1.5rem;
+`;
+
+export const BigHtmlIcon = styled(SiHtml5)`
+	${AboutIcons};
+	color: #e34c26;
+`;
+
+export const BigCssIcon = styled(SiCss3)`
+	${AboutIcons};
+	color: #2965f1;
+`;
+
+export const BigJavaScriptIcon = styled(SiJavascript)`
+	${AboutIcons};
+	color: #f0db4f;
+`;
+
+export const BigTypeScriptIcon = styled(SiTypescript)`
+	${AboutIcons};
+	color: #007acc;
 `;

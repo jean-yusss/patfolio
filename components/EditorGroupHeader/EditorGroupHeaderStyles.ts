@@ -33,7 +33,7 @@ export const ContactTab = styled(Tab).attrs({
 export const ProjectsTab = styled(Tab).attrs({
 	path: '/projects',
 	tab: 'Projects.js',
-	icon: 'javaScript'
+	icon: 'javascript'
 })``;
 
 export const SettingsTab = styled(Tab).attrs({

@@ -27,7 +27,7 @@ export const ContactFile = styled(File).attrs({
 
 export const ProjectsFile = styled(File).attrs({
 	file: 'Projects.js',
-	icon: 'javaScript',
+	icon: 'javascript',
 	path: '/projects'
 })``;
 

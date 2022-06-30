@@ -8,12 +8,7 @@ export const SideBarContainer = styled.div`
 	font-size: 0.75rem;
 	line-height: 1rem;
 
-	@media (min-width: 640px) {
-		display: block;
-		width: 12rem;
-	}
-
-	@media (min-width: 1280px) {
+	@media (min-width: 850px) {
 		display: block;
 		width: 15rem;
 	}

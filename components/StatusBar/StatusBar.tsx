@@ -1,56 +1,66 @@
+import { useRouter } from 'next/router';
+
 import getIcon from '../../utils/getIcon';
+import getLanguage from '../../utils/getLanguage';
 
 import * as S from './StatusBarStyles';
 
-const StatusBar = () => (
-	<S.StatusBarContainer>
-		<S.LeftContainer>
-			<S.IconTextContainer>
-				{getIcon('sourceControl')}
-				<S.StatusBarText>main</S.StatusBarText>
-			</S.IconTextContainer>
+const StatusBar = () => {
+	const router = useRouter();
 
-			<S.IconTextContainer>{getIcon('sync')}</S.IconTextContainer>
+	return (
+		<S.StatusBarContainer>
+			<S.LeftContainer>
+				<S.IconTextContainer>
+					{getIcon('sourceControl')}
+					<S.StatusBarText>main</S.StatusBarText>
+				</S.IconTextContainer>
 
-			<S.Problems>
-				{getIcon('error')}
-				<S.StatusBarText>0</S.StatusBarText>
-				{getIcon('warning')}
-				<S.StatusBarText>0</S.StatusBarText>
-			</S.Problems>
-		</S.LeftContainer>
+				<S.IconTextContainer>{getIcon('sync')}</S.IconTextContainer>
 
-		<S.RightContainer>
-			<S.LineColumn>
-				<S.StatusBarText>Ln 1, Col 1</S.StatusBarText>
-			</S.LineColumn>
+				<S.Problems>
+					{getIcon('error')}
+					<S.StatusBarText>0</S.StatusBarText>
+					{getIcon('warning')}
+					<S.StatusBarText>0</S.StatusBarText>
+				</S.Problems>
+			</S.LeftContainer>
 
-			<S.Spaces>
-				<S.StatusBarText>Spaces: 2</S.StatusBarText>
-			</S.Spaces>
+			<S.RightContainer>
+				<S.LineColumn>
+					<S.StatusBarText>Ln 1, Col 1</S.StatusBarText>
+				</S.LineColumn>
 
-			<S.Encoding>
-				<S.StatusBarText>UTF-8</S.StatusBarText>
-			</S.Encoding>
+				<S.Spaces>
+					<S.StatusBarText>Spaces: 2</S.StatusBarText>
+				</S.Spaces>
 
-			<S.EndOfLineSequence>
-				<S.StatusBarText>LF</S.StatusBarText>
-			</S.EndOfLineSequence>
+				<S.Encoding>
+					<S.StatusBarText>UTF-8</S.StatusBarText>
+				</S.Encoding>
 
-			<S.IconTextContainer>
-				{getIcon('brackets')}
-				<S.StatusBarText>TypeScript React</S.StatusBarText>
-			</S.IconTextContainer>
+				<S.EndOfLineSequence>
+					<S.StatusBarText>LF</S.StatusBarText>
+				</S.EndOfLineSequence>
 
-			<S.Prettier>
-				{getIcon('prettier')}
-				<S.StatusBarText>Prettier</S.StatusBarText>
-			</S.Prettier>
+				<S.IconTextContainer>
+					{(router.pathname === '/' ||
+						router.pathname === '/projects' ||
+						router.pathname === '/settings') &&
+						getIcon('brackets')}
+					<S.StatusBarText>{getLanguage(router.pathname)}</S.StatusBarText>
+				</S.IconTextContainer>
 
-			<S.IconTextContainer>{getIcon('feedback')}</S.IconTextContainer>
-			<S.IconTextContainer>{getIcon('bell')}</S.IconTextContainer>
-		</S.RightContainer>
-	</S.StatusBarContainer>
-);
+				<S.Prettier>
+					{getIcon('prettier')}
+					<S.StatusBarText>Prettier</S.StatusBarText>
+				</S.Prettier>
+
+				<S.IconTextContainer>{getIcon('feedback')}</S.IconTextContainer>
+				<S.IconTextContainer>{getIcon('bell')}</S.IconTextContainer>
+			</S.RightContainer>
+		</S.StatusBarContainer>
+	);
+};
 
 export default StatusBar;

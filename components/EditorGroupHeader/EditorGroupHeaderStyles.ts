@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import Tab from '../Tab/Tab';
 
-export const EditorGroupHeaderContainer = styled.div`
+export const EditorGroupHeaderContainer = styled.div.attrs({
+	className: 'scrollbar-hide'
+})`
 	display: flex;
 	background-color: var(--editorGroupHeader-background);
 	overflow-x: scroll;

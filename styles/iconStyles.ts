@@ -20,8 +20,35 @@ import {
 	VscWarning
 } from 'react-icons/vsc';
 
-import { SiCss3, SiHtml5, SiJavascript, SiReact, SiTypescript } from 'react-icons/si';
+import {
+	SiCss3,
+	SiHtml5,
+	SiExpress,
+	SiGit,
+	SiGithub,
+	SiJavascript,
+	SiMaterialui,
+	SiNextdotjs,
+	SiNodedotjs,
+	SiReact,
+	SiRedux,
+	SiTailwindcss,
+	SiTypescript,
+	SiVisualstudiocode,
+	SiNpm,
+	SiYarn,
+	SiPostman,
+	SiAdobephotoshop,
+	SiMicrosoftpowerpoint,
+	SiMicrosoftexcel,
+	SiMicrosoftword,
+	SiApple,
+	SiWindows
+} from 'react-icons/si';
+
 import { HiOutlineX, HiOutlineMinus, HiOutlinePlus } from 'react-icons/hi';
+import { FaDatabase, FaTerminal } from 'react-icons/fa';
+import { FcLinux } from 'react-icons/fc';
 
 // ActivityBar icons
 const ActivityBarIcons = css`
@@ -193,7 +220,113 @@ export const BigJavaScriptIcon = styled(SiJavascript)`
 	color: #f0db4f;
 `;
 
-export const BigTypeScriptIcon = styled(SiTypescript)`
+export const TypeScriptIcon = styled(SiTypescript)`
 	${AboutIcons};
 	color: #007acc;
+`;
+
+export const SQLIcon = styled(FaDatabase)`
+	${AboutIcons};
+	color: #0098d8;
+`;
+
+export const BigReactIcon = styled(SiReact)`
+	${AboutIcons};
+	color: #61dbfb;
+`;
+
+export const NextJSIcon = styled(SiNextdotjs)`
+	${AboutIcons};
+`;
+
+export const NodeIcon = styled(SiNodedotjs)`
+	${AboutIcons};
+	color: #3c873a;
+`;
+
+export const ExpressIcon = styled(SiExpress)`
+	${AboutIcons};
+`;
+
+export const MaterialUIIcon = styled(SiMaterialui)`
+	${AboutIcons};
+	color: #2196f3;
+`;
+
+export const TailwindIcon = styled(SiTailwindcss)`
+	${AboutIcons};
+	color: #00b4b6;
+`;
+
+export const ReduxIcon = styled(SiRedux)`
+	${AboutIcons};
+	color: #764abc;
+`;
+
+export const VSCodeIcon = styled(SiVisualstudiocode)`
+	${AboutIcons};
+	color: #0078d7;
+`;
+
+export const TerminalIcon = styled(FaTerminal)`
+	${AboutIcons};
+`;
+
+export const GitIcon = styled(SiGit)`
+	${AboutIcons};
+	color: #f34f29;
+`;
+
+export const GithubIcon = styled(SiGithub)`
+	${AboutIcons};
+`;
+
+export const NpmIcon = styled(SiNpm)`
+	${AboutIcons};
+	color: #cc3534;
+`;
+
+export const YarnIcon = styled(SiYarn)`
+	${AboutIcons};
+	color: #117cad;
+	background-color: white;
+	border-radius: 9999px;
+`;
+
+export const PostmanIcon = styled(SiPostman)`
+	${AboutIcons};
+	color: #ef5b25;
+`;
+
+export const PhotoshopIcon = styled(SiAdobephotoshop)`
+	${AboutIcons};
+	color: #4fccfe;
+`;
+
+export const WordIcon = styled(SiMicrosoftword)`
+	${AboutIcons};
+	color: #0078d7;
+`;
+
+export const ExcelIcon = styled(SiMicrosoftexcel)`
+	${AboutIcons};
+	color: #1d6f42;
+`;
+
+export const PowerPointIcon = styled(SiMicrosoftpowerpoint)`
+	${AboutIcons};
+	color: #d04423;
+`;
+
+export const AppleIcon = styled(SiApple)`
+	${AboutIcons};
+`;
+
+export const WindowsIcon = styled(SiWindows)`
+	${AboutIcons};
+	color: #00a2ed;
+`;
+
+export const LinuxIcon = styled(FcLinux)`
+	${AboutIcons};
 `;

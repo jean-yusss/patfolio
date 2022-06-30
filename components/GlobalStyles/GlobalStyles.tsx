@@ -9,6 +9,8 @@ const CustomStyles = createGlobalStyle`
 		--activityBar-hoverForeground: #f8f8f2;
 		--activityBar-inactiveForeground: #6272a4;
 
+		--comment: #6272a4;
+
 		--editor-background: #282a36;
 		--editor-foreground: #f8f8f2;
 		--editorGroupHeader-background: #191a21;

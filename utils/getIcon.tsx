@@ -56,8 +56,52 @@ const getIcon = (icon: string) => {
 			return <S.BigCssIcon />;
 		case 'big-javascript':
 			return <S.BigJavaScriptIcon />;
-		case 'big-typescript':
-			return <S.BigTypeScriptIcon />;
+		case 'typescript':
+			return <S.TypeScriptIcon />;
+		case 'sql':
+			return <S.SQLIcon />;
+		case 'big-react':
+			return <S.BigReactIcon />;
+		case 'next':
+			return <S.NextJSIcon />;
+		case 'node':
+			return <S.NodeIcon />;
+		case 'express':
+			return <S.ExpressIcon />;
+		case 'materialui':
+			return <S.MaterialUIIcon />;
+		case 'tailwind':
+			return <S.TailwindIcon />;
+		case 'redux':
+			return <S.ReduxIcon />;
+		case 'vscode':
+			return <S.VSCodeIcon />;
+		case 'terminal':
+			return <S.TerminalIcon />;
+		case 'git':
+			return <S.GitIcon />;
+		case 'github':
+			return <S.GithubIcon />;
+		case 'npm':
+			return <S.NpmIcon />;
+		case 'yarn':
+			return <S.YarnIcon />;
+		case 'postman':
+			return <S.PostmanIcon />;
+		case 'photoshop':
+			return <S.PhotoshopIcon />;
+		case 'word':
+			return <S.WordIcon />;
+		case 'excel':
+			return <S.ExcelIcon />;
+		case 'powerpoint':
+			return <S.PowerPointIcon />;
+		case 'mac':
+			return <S.AppleIcon />;
+		case 'windows':
+			return <S.WindowsIcon />;
+		case 'linux':
+			return <S.LinuxIcon />;
 	}
 };
 

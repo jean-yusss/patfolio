@@ -13,5 +13,5 @@ const ActiveStyles = css`
 
 export const IconContainer = styled.div<ActivityBarIconProps>`
 	${({ path, router }) =>
-		path === router ? ActiveStyles : 'border-left: 2px solid transparent;'};
+		path === router ? ActiveStyles : 'border-left: 2px solid transparent'};
 `;

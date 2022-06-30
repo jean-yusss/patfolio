@@ -11,6 +11,7 @@ const CustomStyles = createGlobalStyle`
 
 		--editor-background: #282a36;
 		--editor-foreground: #f8f8f2;
+		--editorGroupHeader-background: #191a21;
 
 		--list-activeBackground: #44475a75;
 		--list-hoverBackground: #44475a75;
@@ -22,6 +23,13 @@ const CustomStyles = createGlobalStyle`
 		--statusBar-background: #191a21;
 		--statusBar-foreground: #f8f8f2;
 		--statusBar-hoverBackground: #ffffff1f;
+
+		--tab-activeBackground: #282a36;
+		--tab-activeBorder: #ff79c680;
+		--tab-activeForeground: #f8f8f2;
+		--tab-border: #191a21;
+		--tab-inactiveBackground: #21222c;
+		--tab-inactiveForeground: #6272a4;
 		
 		--titleBar-background: #21222c;
 		--titleBar-foreground: #f8f8f2;

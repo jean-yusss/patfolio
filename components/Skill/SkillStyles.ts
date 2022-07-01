@@ -1,12 +1,17 @@
 import styled from 'styled-components';
 
-export const SkillContainer = styled.div`
+interface SkillProps {
+	padding?: string;
+}
+
+export const SkillContainer = styled.div<SkillProps>`
 	display: flex;
 	align-items: center;
-	padding-left: 1.25rem;
 	margin: 1rem 0;
 
-	& > p {
+	padding-left: ${({ padding }) => !padding && '1.25rem'};
+
+	& > * + * {
 		margin-left: 1rem;
 	}
 `;

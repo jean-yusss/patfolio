@@ -6,7 +6,7 @@ export const CommentContainer = styled.div`
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 
-	& > p {
+	& > * + * {
 		margin-left: 1rem;
 	}
 `;

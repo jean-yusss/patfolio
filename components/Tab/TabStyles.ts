@@ -21,7 +21,7 @@ export const TabContainer = styled.div<TabProps>`
 	color: var(--tab-inactiveForeground);
 	cursor: pointer;
 
-	& > p {
+	& > * + * {
 		margin-left: 0.5rem;
 	}
 

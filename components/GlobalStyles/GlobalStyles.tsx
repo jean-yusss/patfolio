@@ -34,7 +34,9 @@ const CustomStyles = createGlobalStyle`
 		--titleBar-background: #21222c;
 		--titleBar-foreground: #f8f8f2;
 
+		--className: #50fa7b;
 		--comment: #6272a4;
+		--string: #f1fa8c;
 		--tag: #ff79c6;
 		--tag-brackets: #f8f8f2;
 	}

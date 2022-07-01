@@ -1,24 +1,16 @@
 import styled from 'styled-components';
 
-import H1 from '../components/H1/H1';
-import Skill from '../components/Skill/Skill';
+export const AboutContainer = styled.div.attrs({ className: 'scrollbar-hide' })`
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	padding: 1rem;
+	overflow-y: scroll;
 
-export const School = styled(Skill).attrs({
-	icon: 'school',
-	skill: 'University of Central Florida',
-	padding: 'false'
-})``;
-
-export const Degree = styled(Skill).attrs({
-	icon: 'graduate',
-	skill: 'Bachelor of Science in Mechanical Engineering',
-	padding: 'false'
-})``;
-
-export const GraduationDate = styled(Skill).attrs({
-	icon: 'calendar',
-	skill: 'December 2018',
-	padding: 'false'
-})``;
-
-export const Name = styled(H1).attrs({ title: 'Patrick Nguyen' })``;
+	@media (min-width: 1024px) {
+		gap: 2rem;
+		overflow: hidden;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+`;

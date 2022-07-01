@@ -35,10 +35,13 @@ const CustomStyles = createGlobalStyle`
 		--titleBar-foreground: #f8f8f2;
 
 		--className: #50fa7b;
+		--colon: #ff79c6;
 		--comment: #6272a4;
+		--key: #8be9fd;
 		--string: #f1fa8c;
 		--tag: #ff79c6;
 		--tag-brackets: #f8f8f2;
+		--value: #bd93f9;
 	}
 `;
 

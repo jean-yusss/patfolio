@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import H1 from '../components/H1/H1';
 import Skill from '../components/Skill/Skill';
 
 export const HTML = styled(Skill).attrs({ icon: 'big-html', skill: 'HTML' })``;
@@ -130,3 +131,27 @@ export const Windows = styled(Skill).attrs({
 	icon: 'windows',
 	skill: 'Windows'
 })``;
+
+export const Firebase = styled(Skill).attrs({
+	icon: 'firebase',
+	skill: 'Firebase'
+})``;
+
+export const Stripe = styled(Skill).attrs({
+	icon: 'stripe',
+	skill: 'Stripe'
+})``;
+
+export const GraphQL = styled(Skill).attrs({
+	icon: 'graphql',
+	skill: 'GraphQL'
+})``;
+
+export const PostgreSQL = styled(Skill).attrs({
+	icon: 'postgresql',
+	skill: 'PostgreSQL'
+})``;
+
+export const Name = styled(H1).attrs({ title: 'Patrick Nguyen' })``;
+
+export const Skills = styled(H1).attrs({ title: 'Skills' })``;

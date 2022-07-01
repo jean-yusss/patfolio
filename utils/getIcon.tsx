@@ -102,6 +102,20 @@ const getIcon = (icon: string) => {
 			return <S.WindowsIcon />;
 		case 'linux':
 			return <S.LinuxIcon />;
+		case 'firebase':
+			return <S.FirebaseIcon />;
+		case 'stripe':
+			return <S.StripeIcon />;
+		case 'graphql':
+			return <S.GraphQLIcon />;
+		case 'postgresql':
+			return <S.PostgreSQLIcon />;
+		case 'school':
+			return <S.SchoolIcon />;
+		case 'graduate':
+			return <S.GraduateIcon />;
+		case 'calendar':
+			return <S.CalendarIcon />;
 	}
 };
 

@@ -24,14 +24,18 @@ import {
 	SiCss3,
 	SiHtml5,
 	SiExpress,
+	SiFirebase,
 	SiGit,
 	SiGithub,
+	SiGraphql,
 	SiJavascript,
 	SiMaterialui,
 	SiNextdotjs,
 	SiNodedotjs,
+	SiPostgresql,
 	SiReact,
 	SiRedux,
+	SiStripe,
 	SiTailwindcss,
 	SiTypescript,
 	SiVisualstudiocode,
@@ -47,7 +51,15 @@ import {
 } from 'react-icons/si';
 
 import { HiOutlineX, HiOutlineMinus, HiOutlinePlus } from 'react-icons/hi';
-import { FaDatabase, FaTerminal } from 'react-icons/fa';
+
+import {
+	FaCalendarAlt,
+	FaDatabase,
+	FaSchool,
+	FaTerminal,
+	FaUserGraduate
+} from 'react-icons/fa';
+
 import { FcLinux } from 'react-icons/fc';
 
 // ActivityBar icons
@@ -328,5 +340,37 @@ export const WindowsIcon = styled(SiWindows)`
 `;
 
 export const LinuxIcon = styled(FcLinux)`
+	${AboutIcons};
+`;
+
+export const FirebaseIcon = styled(SiFirebase)`
+	${AboutIcons};
+	color: #ffa611;
+`;
+
+export const StripeIcon = styled(SiStripe)`
+	${AboutIcons};
+	color: #6772e5;
+`;
+
+export const GraphQLIcon = styled(SiGraphql)`
+	${AboutIcons};
+	color: #e535ab;
+`;
+
+export const PostgreSQLIcon = styled(SiPostgresql)`
+	${AboutIcons};
+	color: #0064a5;
+`;
+
+export const SchoolIcon = styled(FaSchool)`
+	${AboutIcons};
+`;
+
+export const GraduateIcon = styled(FaUserGraduate)`
+	${AboutIcons};
+`;
+
+export const CalendarIcon = styled(FaCalendarAlt)`
 	${AboutIcons};
 `;

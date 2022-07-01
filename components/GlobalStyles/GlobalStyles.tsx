@@ -9,8 +9,6 @@ const CustomStyles = createGlobalStyle`
 		--activityBar-hoverForeground: #f8f8f2;
 		--activityBar-inactiveForeground: #6272a4;
 
-		--comment: #6272a4;
-
 		--editor-background: #282a36;
 		--editor-foreground: #f8f8f2;
 		--editorGroupHeader-background: #191a21;
@@ -35,6 +33,10 @@ const CustomStyles = createGlobalStyle`
 		
 		--titleBar-background: #21222c;
 		--titleBar-foreground: #f8f8f2;
+
+		--comment: #6272a4;
+		--tag: #ff79c6;
+		--tag-brackets: #f8f8f2;
 	}
 `;
 

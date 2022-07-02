@@ -6,7 +6,7 @@ import Skill from '../Skill/Skill';
 export const AboutMeContainer = styled.section.attrs({
 	className: 'scrollbar-hide'
 })`
-	padding-bottom: 3rem;
+	margin-bottom: 3rem;
 
 	@media (min-width: 1024px) {
 		overflow-y: scroll;
@@ -65,17 +65,17 @@ export const EducationContainer = styled.div`
 export const School = styled(Skill).attrs({
 	icon: 'school',
 	skill: 'University of Central Florida',
-	padding: 'false'
+	margin: 'false'
 })``;
 
 export const Degree = styled(Skill).attrs({
 	icon: 'graduate',
 	skill: 'Bachelor of Science in Mechanical Engineering',
-	padding: 'false'
+	margin: 'false'
 })``;
 
 export const GraduationDate = styled(Skill).attrs({
 	icon: 'calendar',
 	skill: 'December 2018',
-	padding: 'false'
+	margin: 'false'
 })``;

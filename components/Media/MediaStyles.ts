@@ -4,13 +4,19 @@ import CssAttribute from '../CssAttribute/CssAttribute';
 
 export const MediaContainer = styled.div`
 	font-weight: 500;
+
+	@media (min-width: 1024px) {
+		overflow-y: scroll;
+		border-right: 1.5px solid var(--contact-border);
+		margin-bottom: 4rem;
+	}
 `;
 
 export const MediaTitle = styled.h1`
 	text-align: center;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
-	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
 
 	@media (min-width: 500px) {
 		font-size: 1.25rem;

@@ -6,7 +6,7 @@ import Skill from '../Skill/Skill';
 export const SkillsSectionContainer = styled.section.attrs({
 	className: 'scrollbar-hide'
 })`
-	padding-bottom: 3rem;
+	margin-bottom: 3rem;
 
 	@media (min-width: 1024px) {
 		overflow-y: scroll;

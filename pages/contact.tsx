@@ -1,13 +1,13 @@
 import Media from '../components/Media/Media';
+import ContactForm from '../components/ContactForm/ContactForm';
+
 import * as S from '../styles/ContactStyles';
 
-const Contact = () => {
-	return (
-		<S.ContactContainer>
-			<Media />
-			<div>Contact form</div>
-		</S.ContactContainer>
-	);
-};
+const Contact = () => (
+	<S.ContactContainer>
+		<Media />
+		<ContactForm />
+	</S.ContactContainer>
+);
 
 export default Contact;

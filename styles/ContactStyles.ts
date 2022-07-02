@@ -22,8 +22,9 @@ export const ContactContainer = styled.div.attrs({ className: 'scrollbar-hide' }
 	}
 
 	@media (min-width: 1024px) {
-		gap: 2rem;
+		gap: 1.5rem;
 		overflow: hidden;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin-top: 1rem;
 	}
 `;

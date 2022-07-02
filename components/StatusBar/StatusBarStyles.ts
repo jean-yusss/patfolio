@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const StatusBarContainer = styled.footer`
 	height: 1.5rem;
@@ -14,7 +14,7 @@ export const LeftContainer = styled.div`
 	display: flex;
 	align-items: center;
 	height: 100%;
-	padding-left: 0.25rem;
+	margin-left: 0.25rem;
 
 	& > * {
 		margin-left: 0.5rem;
@@ -26,7 +26,7 @@ export const IconTextContainer = styled.div`
 	align-items: center;
 	cursor: pointer;
 	height: 100%;
-	padding-right: 0.25rem;
+	margin-right: 0.25rem;
 
 	&:hover {
 		background-color: var(--statusBar-hoverBackground);
@@ -93,7 +93,7 @@ export const StatusBarText = styled.p`
 export const RightContainer = styled.div`
 	display: flex;
 	align-items: center;
-	padding-right: 0.5rem;
+	margin-right: 0.5rem;
 	height: 100%;
 
 	& > * {

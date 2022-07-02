@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 interface SkillProps {
-	padding?: string;
+	margin?: string;
 }
 
 export const SkillContainer = styled.div<SkillProps>`
@@ -9,7 +9,7 @@ export const SkillContainer = styled.div<SkillProps>`
 	align-items: center;
 	margin: 1rem 0;
 
-	padding-left: ${({ padding }) => !padding && '1.25rem'};
+	margin-left: ${({ margin }) => !margin && '1.25rem'};
 
 	& > * + * {
 		margin-left: 1rem;

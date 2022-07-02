@@ -34,10 +34,13 @@ const CustomStyles = createGlobalStyle`
 		--titleBar-background: #21222c;
 		--titleBar-foreground: #f8f8f2;
 
+		--brackets: #f8f8f2
 		--className: #50fa7b;
 		--colon: #ff79c6;
 		--comment: #6272a4;
 		--key: #8be9fd;
+		--lineNumber: #6272a4;
+		--semicolon: #f8f8f2;
 		--string: #f1fa8c;
 		--tag: #ff79c6;
 		--tag-brackets: #f8f8f2;

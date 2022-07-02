@@ -27,7 +27,7 @@ export const AboutTab = styled(Tab).attrs({
 export const ContactTab = styled(Tab).attrs({
 	path: '/contact',
 	tab: 'Contact.css',
-	icon: 'react'
+	icon: 'css'
 })``;
 
 export const ProjectsTab = styled(Tab).attrs({

@@ -6,7 +6,6 @@ import { AboutContainer } from '../styles/AboutStyles';
 const About = () => (
 	<AboutContainer>
 		<AboutMe />
-
 		<SkillsSection />
 	</AboutContainer>
 );

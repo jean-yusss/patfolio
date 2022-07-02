@@ -55,20 +55,24 @@ export const Brackets = styled.p`
 
 export const Portfolio = styled(CssAttribute).attrs({
 	property: 'Portfolio',
-	value: 'https://patfolio.vercel.app/'
+	value: 'https://patfolio.vercel.app/',
+	href: 'https://patfolio.vercel.app'
 })``;
 
 export const Email = styled(CssAttribute).attrs({
 	property: 'Email',
-	value: 'iamtiredofyou2@gmail.com'
+	value: 'iamtiredofyou2@gmail.com',
+	href: 'mailto:iamtiredofyou2@gmail.com'
 })``;
 
 export const GitHub = styled(CssAttribute).attrs({
 	property: 'GitHub',
-	value: 'jean-yusss'
+	value: 'jean-yusss',
+	href: 'https://github.com/jean-yusss'
 })``;
 
 export const Instagram = styled(CssAttribute).attrs({
 	property: 'Instagram',
-	value: 'chykneeez'
+	value: 'chykneeez',
+	href: 'https://www.instagram.com/chykneeez/'
 })``;

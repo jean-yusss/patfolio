@@ -3,19 +3,16 @@ import * as S from './CssAttributeStyles';
 interface Props {
 	property: string;
 	value: string;
-	// Adding routing later
-	link?: string;
+	href: string;
 }
 
-const CssAttribute = ({ property, value, link }: Props) => {
-	return (
-		<S.CssAttributeContainer>
-			<S.Key>{property}</S.Key>
-			<S.Colon>:</S.Colon>
-			<S.Value>{value}</S.Value>
-			<S.SemiColon>{';'}</S.SemiColon>
-		</S.CssAttributeContainer>
-	);
-};
+const CssAttribute = ({ property, value, href }: Props) => (
+	<S.CssAttributeContainer>
+		<S.Key>{property}</S.Key>
+		<S.Colon>:</S.Colon>
+		<S.Value href={href}>{value}</S.Value>
+		<S.SemiColon>{';'}</S.SemiColon>
+	</S.CssAttributeContainer>
+);
 
 export default CssAttribute;

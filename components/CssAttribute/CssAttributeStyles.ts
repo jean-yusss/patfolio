@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+interface ValueProps {
+	href: string;
+}
+
 export const CssAttributeContainer = styled.div`
 	display: flex;
 `;
@@ -19,7 +23,9 @@ export const Colon = styled.p`
 	color: var(--colon);
 `;
 
-export const Value = styled.a`
+export const Value = styled.a.attrs<ValueProps>(({ href }) =>
+	href.includes('https') ? { target: '_blank' } : { target: '_self' }
+)`
 	padding-left: 0.25rem;
 	color: var(--value);
 	cursor: pointer;

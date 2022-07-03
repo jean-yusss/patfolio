@@ -1,8 +1,8 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const InputFieldContainer = styled.div`
 	& > * + * {
-		margin-top: 0.5rem;
+		margin-top: 0.25rem;
 	}
 `;
 
@@ -30,25 +30,4 @@ export const Label = styled.p`
 export const Asterisk = styled.p`
 	color: var(--asterisk);
 	margin-left: 0.25rem;
-`;
-
-const InputStyles = css`
-	width: 100%;
-	border-radius: 0.375rem;
-	outline: 2px solid transparent;
-	outline-offset: 2px;
-	padding: 0.25rem;
-	color: black;
-`;
-
-export const TextInput = styled.input.attrs({ type: 'text' })`
-	${InputStyles};
-`;
-
-export const EmailInput = styled.input.attrs({ type: 'email' })`
-	${InputStyles};
-`;
-
-export const TextArea = styled.textarea.attrs({ rows: 5 })`
-	${InputStyles};
 `;

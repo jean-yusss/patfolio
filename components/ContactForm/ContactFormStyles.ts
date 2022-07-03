@@ -1,13 +1,10 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import InputField from '../InputField/InputField';
 
-export const ContactFormContainer = styled.form`
+export const ContactFormContainer = styled.form.attrs({ className: 'scrollbar-hide' })`
 	font-weight: 500;
-
-	@media (min-width: 1024px) {
-		overflow-y: scroll;
-	}
+	margin-bottom: 2rem;
 `;
 
 export const ContactFormTitle = styled.h1`
@@ -21,16 +18,43 @@ export const ContactFormTitle = styled.h1`
 	}
 `;
 
-export const NameInput = styled(InputField).attrs({ label: 'name', type: 'text' })``;
+export const NameContainer = styled(InputField).attrs({ label: 'name' })``;
 
-export const EmailInput = styled(InputField).attrs({ label: 'email', type: 'email' })``;
+export const EmailContainer = styled(InputField).attrs({ label: 'email' })``;
 
-export const SubjectInput = styled(InputField).attrs({
-	label: 'subject',
-	type: 'text'
-})``;
+export const SubjectContainer = styled(InputField).attrs({ label: 'subject' })``;
 
-export const MessageInput = styled(InputField).attrs({
-	label: 'message',
-	type: 'textarea'
-})``;
+export const MessageContainer = styled(InputField).attrs({ label: 'message' })``;
+
+const InputStyles = css`
+	width: 100%;
+	border-radius: 0.375rem;
+	outline: 2px solid transparent;
+	outline-offset: 2px;
+	padding: 0.25rem 0.5rem;
+	color: black;
+`;
+
+export const TextInput = styled.input.attrs({ type: 'text' })`
+	${InputStyles};
+`;
+
+export const EmailInput = styled.input.attrs({ type: 'email' })`
+	${InputStyles};
+`;
+
+export const TextArea = styled.textarea.attrs({ rows: 4 })`
+	${InputStyles};
+`;
+
+export const ErrorContainer = styled.div`
+	display: flex;
+	align-items: center;
+	color: var(--contact-error);
+`;
+
+export const Error = styled.p`
+	margin-left: 0.25rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+`;

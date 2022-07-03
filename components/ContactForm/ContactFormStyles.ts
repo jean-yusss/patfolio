@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const ContactFormContainer = styled.div`
+import InputField from '../InputField/InputField';
+
+export const ContactFormContainer = styled.form`
 	font-weight: 500;
 
 	@media (min-width: 1024px) {
@@ -18,3 +20,17 @@ export const ContactFormTitle = styled.h1`
 		font-size: 1.25rem;
 	}
 `;
+
+export const NameInput = styled(InputField).attrs({ label: 'name', type: 'text' })``;
+
+export const EmailInput = styled(InputField).attrs({ label: 'email', type: 'email' })``;
+
+export const SubjectInput = styled(InputField).attrs({
+	label: 'subject',
+	type: 'text'
+})``;
+
+export const MessageInput = styled(InputField).attrs({
+	label: 'message',
+	type: 'textarea'
+})``;

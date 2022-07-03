@@ -19,9 +19,21 @@ const ContactForm = () => {
 		formState: { errors }
 	} = useForm<FormData>();
 
-	const onSubmit: SubmitHandler<FormData> = data => {
-		console.log(data);
-		reset();
+	const onSubmit: SubmitHandler<FormData> = async data => {
+		try {
+			const res = await fetch('/api/email', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(data)
+			});
+
+			if (res.ok) {
+				reset();
+				alert('message sent!');
+			}
+		} catch (error) {
+			console.log(error);
+		}
 	};
 
 	return (

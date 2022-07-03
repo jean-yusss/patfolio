@@ -6,7 +6,6 @@ export const MediaContainer = styled.div`
 	font-weight: 500;
 
 	@media (min-width: 1024px) {
-		overflow-y: scroll;
 		border-right: 1.5px solid var(--contact-border);
 		margin-bottom: 4rem;
 	}

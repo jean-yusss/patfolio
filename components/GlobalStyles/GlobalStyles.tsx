@@ -40,6 +40,8 @@ const CustomStyles = createGlobalStyle`
 		--colon: #ff79c6;
 		--comment: #6272a4;
 		--contact-border: #bd93f9;
+		--contact-button: #bd93f9;
+		--contact-hoverButton: #bd93f9f1;
 		--contact-error: #bd93f9;
 		--key: #8be9fd;
 		--lineNumber: #6272a4;

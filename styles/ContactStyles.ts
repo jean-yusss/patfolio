@@ -25,6 +25,5 @@ export const ContactContainer = styled.div.attrs({ className: 'scrollbar-hide' }
 		gap: 1.5rem;
 		overflow: hidden;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
-		margin-top: 1rem;
 	}
 `;

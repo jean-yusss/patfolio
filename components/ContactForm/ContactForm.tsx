@@ -1,3 +1,4 @@
+import toast from 'react-hot-toast';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
 import getIcon from '../../utils/getIcon';
@@ -29,10 +30,10 @@ const ContactForm = () => {
 
 			if (res.ok) {
 				reset();
-				alert('message sent!');
+				toast.success('Message Sent!');
 			}
 		} catch (error) {
-			console.log(error);
+			toast.error('Please Try Again!');
 		}
 	};
 
@@ -40,7 +41,7 @@ const ContactForm = () => {
 		<S.ContactFormContainer onSubmit={handleSubmit(onSubmit)}>
 			<S.ContactFormTitle>Or Contact Me Here!</S.ContactFormTitle>
 
-			<div className='space-y-3'>
+			<S.Form>
 				<S.NameContainer>
 					<S.TextInput {...register('name', { required: true })} />
 					{errors.name && (
@@ -81,10 +82,8 @@ const ContactForm = () => {
 					)}
 				</S.MessageContainer>
 
-				<button className='bg-[#bd93f9] py-3 w-full rounded-md uppercase text-xs sm:text-sm font-bold lg:text-base hover:bg-[#bd93f9f1]'>
-					Submit
-				</button>
-			</div>
+				<S.SubmitButton>Submit</S.SubmitButton>
+			</S.Form>
 		</S.ContactFormContainer>
 	);
 };

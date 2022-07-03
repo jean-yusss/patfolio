@@ -18,6 +18,12 @@ export const ContactFormTitle = styled.h1`
 	}
 `;
 
+export const Form = styled.div`
+	& > * + * {
+		margin-top: 0.75rem;
+	}
+`;
+
 export const NameContainer = styled(InputField).attrs({ label: 'name' })``;
 
 export const EmailContainer = styled(InputField).attrs({ label: 'email' })``;
@@ -57,4 +63,29 @@ export const Error = styled.p`
 	margin-left: 0.25rem;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
+`;
+
+export const SubmitButton = styled.button`
+	padding: 0.75rem 0;
+	width: 100%;
+	border-radius: 0.375rem;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	font-weight: 700;
+	background-color: var(--contact-button);
+
+	@media (min-width: 400px) {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+
+	@media (min-width: 500px) {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	&:hover {
+		background-color: var(--contact-hoverButton);
+	}
 `;

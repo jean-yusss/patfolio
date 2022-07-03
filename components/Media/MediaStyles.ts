@@ -7,7 +7,7 @@ export const MediaContainer = styled.div`
 
 	@media (min-width: 1024px) {
 		border-right: 1.5px solid var(--contact-border);
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 	}
 `;
 

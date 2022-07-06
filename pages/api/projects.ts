@@ -4,7 +4,7 @@ const projects = [
 	{
 		id: 1,
 		name: 'Patfolio',
-		image: 'https://i.imgur.com/Ud1CN02.jpg',
+		image: 'https://i.imgur.com/WYrsTsL.jpg',
 		description:
 			'A portfolio website inspired by the source-code editor: Visual Studio Code for macOS.',
 		tags: [

@@ -7,7 +7,7 @@ export const ProjectCardContainer = styled.div`
 	transition-property: color, background-color, border-color, text-decoration-color, fill,
 		stroke, opacity, box-shadow, transform, filter, backdrop-filter;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-	transition-duration: 150ms;
+	transition-duration: 200ms;
 
 	&:hover {
 		transform: scale(1.05);
@@ -20,7 +20,7 @@ export const ProjectCardContainer = styled.div`
 
 export const ImageContainer = styled.div`
 	position: relative;
-	height: 10rem;
+	height: 12rem;
 	width: 100%;
 	overflow: hidden;
 	border-top-left-radius: 0.5rem;

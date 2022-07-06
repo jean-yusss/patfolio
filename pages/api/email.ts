@@ -1,5 +1,5 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
 import sendgrid from '@sendgrid/mail';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY!);
 
@@ -10,7 +10,7 @@ interface Data {
 	message: string;
 }
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+export default async function sendEmail(req: NextApiRequest, res: NextApiResponse) {
 	if (req.method === 'POST') {
 		const { name, email, subject, message }: Data = req.body;
 
@@ -28,4 +28,4 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 			res.status(400).json({ status: 'fail' });
 		}
 	}
-};
+}

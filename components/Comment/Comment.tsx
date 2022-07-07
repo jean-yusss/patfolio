@@ -1,10 +1,6 @@
 import { CommentContainer, CommentText } from './CommentStyles';
 
-interface Props {
-	comment: string;
-}
-
-const Comment = ({ comment }: Props) => (
+const Comment = ({ comment }: CommentProps) => (
 	<CommentContainer>
 		<CommentText>{'<!--'}</CommentText>
 		<CommentText>{comment}</CommentText>

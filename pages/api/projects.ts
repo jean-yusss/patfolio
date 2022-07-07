@@ -39,7 +39,7 @@ const projects = [
 	{
 		id: 3,
 		name: 'Netflix Clone',
-		image: 'https://i.imgur.com/E4xv6Pf.jpg',
+		image: 'https://i.imgur.com/31mPX3K.jpg',
 		description: 'A clone web application of Netflix.',
 		tags: [
 			'NextJS',

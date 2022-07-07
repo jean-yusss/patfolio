@@ -2,11 +2,7 @@ import Image from 'next/image';
 
 import * as S from './ProjectCardStyles';
 
-interface Props {
-	project: Project;
-}
-
-const ProjectCard = ({ project }: Props) => (
+const ProjectCard = ({ project }: ProjectCardProps) => (
 	<S.ProjectCardContainer>
 		<S.ImageContainer>
 			<Image src={project.image} alt='' layout='fill' objectFit='cover' />

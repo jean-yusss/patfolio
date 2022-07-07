@@ -116,6 +116,8 @@ const getIcon = (icon: string) => {
 			return <S.GraduateIcon />;
 		case 'calendar':
 			return <S.CalendarIcon />;
+		case 'verified':
+			return <S.VerifiedIcon />;
 	}
 };
 

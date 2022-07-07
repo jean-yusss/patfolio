@@ -52,6 +52,10 @@ const CustomStyles = createGlobalStyle`
 		--string: #f1fa8c;
 		--tag: #ff79c6;
 		--tag-brackets: #f8f8f2;
+		--themeCard-background: #21222c;
+		--themeCardButton-foreground: #f8f8f2;
+		--themeCardButton-background: #50fa7b90;
+		--themeCardButton-hoverBackground: #50fa7b60;
 		--value: #bd93f9;
 	}
 

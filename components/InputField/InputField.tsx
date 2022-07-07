@@ -1,11 +1,6 @@
 import * as S from './InputFieldStyles';
 
-interface Props {
-	label: string;
-	children: React.ReactNode;
-}
-
-const InputField = ({ label, children }: Props) => (
+const InputField = ({ label, children }: InputFieldProps) => (
 	<S.InputFieldContainer>
 		<S.LabelContainer>
 			<S.Label>{label}</S.Label>

@@ -1,5 +1,3 @@
-import Comment from '../Comment/Comment';
-
 import * as S from './AboutMeStyles';
 
 const AboutMe = () => (
@@ -21,7 +19,7 @@ const AboutMe = () => (
 			<S.TagBrackets>{'>'}</S.TagBrackets>
 		</S.TagContainer>
 
-		<Comment comment='Education' />
+		<S.EducationComment />
 
 		<S.EducationContainer>
 			<S.School />

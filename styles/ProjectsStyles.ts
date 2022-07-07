@@ -8,10 +8,11 @@ export const ProjectsContainer = styled.div.attrs({ className: 'scrollbar-hide' 
 `;
 
 export const ProjectsTitle = styled.h1`
-	font-size: 1.5rem;
-	line-height: 2rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 600;
 `;
 
 export const Projects = styled.div`

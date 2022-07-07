@@ -5,13 +5,6 @@ import getIcon from '../../utils/getIcon';
 
 import * as S from './ContactFormStyles';
 
-interface FormData {
-	name: string;
-	email: string;
-	subject: string;
-	message: string;
-}
-
 const ContactForm = () => {
 	const {
 		register,

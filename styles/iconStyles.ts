@@ -61,6 +61,7 @@ import {
 } from 'react-icons/fa';
 
 import { FcLinux } from 'react-icons/fc';
+import { MdVerified } from 'react-icons/md';
 
 // ActivityBar icons
 const ActivityBarIcons = css`
@@ -94,35 +95,40 @@ export const SettingsIcon = styled(VscSettingsGear)`
 	${ActivityBarIcons}
 `;
 
-// File and Tab icons
-const FileAndTabIcons = css`
+// Small icons
+const SmallIcons = css`
 	height: 1rem;
 	width: 1rem;
 `;
 
 export const ReactIcon = styled(SiReact)`
-	${FileAndTabIcons};
+	${SmallIcons};
 	color: #007acc;
 `;
 
 export const HtmlIcon = styled(SiHtml5)`
-	${FileAndTabIcons};
+	${SmallIcons};
 	color: #e34c26;
 `;
 
 export const CssIcon = styled(SiCss3)`
-	${FileAndTabIcons};
+	${SmallIcons};
 	color: #2965f1;
 `;
 
 export const JavaScriptIcon = styled(SiJavascript)`
-	${FileAndTabIcons};
+	${SmallIcons};
 	color: #f0db4f;
 `;
 
 export const JsonIcon = styled(VscJson)`
-	${FileAndTabIcons};
+	${SmallIcons};
 	color: #f0db4f;
+`;
+
+export const VerifiedIcon = styled(MdVerified)`
+	${SmallIcons};
+	color: #3794ff;
 `;
 
 // SideBar icons

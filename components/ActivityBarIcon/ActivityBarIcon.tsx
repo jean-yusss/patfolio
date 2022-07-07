@@ -5,12 +5,7 @@ import getIcon from '../../utils/getIcon';
 
 import { IconContainer } from './ActivityBarIconStyles';
 
-interface Props {
-	path: string;
-	icon: string;
-}
-
-const ActivityBarIcon = ({ path, icon }: Props) => {
+const ActivityBarIcon = ({ path, icon }: ActivityBarIconProps) => {
 	const router = useRouter();
 
 	return (

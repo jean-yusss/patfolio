@@ -1,5 +1,3 @@
-import Comment from '../../components/Comment/Comment';
-
 import * as S from './SkillsSectionStyles';
 
 const SkillsSection = () => (
@@ -15,7 +13,7 @@ const SkillsSection = () => (
 			<S.SQL />
 		</S.SkillsBox>
 
-		<Comment comment='Keep Scrolling' />
+		<S.KeepScrolling />
 
 		<S.SkillsBox>
 			<S.SkillsTitle>Libraries &amp; Frameworks</S.SkillsTitle>
@@ -32,7 +30,7 @@ const SkillsSection = () => (
 			<S.Stripe />
 		</S.SkillsBox>
 
-		<Comment comment='Keep Scrolling' />
+		<S.KeepScrolling />
 
 		<S.SkillsBox>
 			<S.SkillsTitle>Tools</S.SkillsTitle>
@@ -50,7 +48,7 @@ const SkillsSection = () => (
 			<S.PowerPoint />
 		</S.SkillsBox>
 
-		<Comment comment='Keep Scrolling' />
+		<S.KeepScrolling />
 
 		<S.SkillsBox>
 			<S.SkillsTitle>Operating Systems</S.SkillsTitle>

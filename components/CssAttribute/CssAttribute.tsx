@@ -1,12 +1,6 @@
 import * as S from './CssAttributeStyles';
 
-interface Props {
-	property: string;
-	value: string;
-	href: string;
-}
-
-const CssAttribute = ({ property, value, href }: Props) => (
+const CssAttribute = ({ property, value, href }: CssAttributeProps) => (
 	<S.CssAttributeContainer>
 		<S.Key>{property}</S.Key>
 		<S.Colon>:</S.Colon>

@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import H1 from '../H1/H1';
 import Skill from '../Skill/Skill';
+import Comment from '../Comment/Comment';
 
 export const AboutMeContainer = styled.section.attrs({
 	className: 'scrollbar-hide'
@@ -55,6 +56,8 @@ export const TagText = styled.p`
 		line-height: 1.5rem;
 	}
 `;
+
+export const EducationComment = styled(Comment).attrs({ comment: 'Education' })``;
 
 export const EducationContainer = styled.div`
 	& > * + * {

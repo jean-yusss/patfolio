@@ -5,13 +5,7 @@ import getIcon from '../../utils/getIcon';
 
 import { FileContainer, FileText } from './FileStyles';
 
-interface Props {
-	file: string;
-	icon: string;
-	path: string;
-}
-
-const File = ({ file, icon, path }: Props) => {
+const File = ({ file, icon, path }: FileProps) => {
 	const router = useRouter();
 
 	return (

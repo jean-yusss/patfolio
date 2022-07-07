@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import H1 from '../H1/H1';
 import Skill from '../Skill/Skill';
+import Comment from '../../components/Comment/Comment';
 
 export const SkillsSectionContainer = styled.section.attrs({
 	className: 'scrollbar-hide'
@@ -33,6 +34,8 @@ export const SkillsTitle = styled.h2`
 		line-height: 1.75rem;
 	}
 `;
+
+export const KeepScrolling = styled(Comment).attrs({ comment: 'Keep Scrolling' })``;
 
 export const Skills = styled(H1).attrs({ title: 'Skills' })``;
 

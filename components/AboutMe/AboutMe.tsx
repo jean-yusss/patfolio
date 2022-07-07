@@ -8,7 +8,7 @@ const AboutMe = () => (
 			<S.TagBrackets>{'<'}</S.TagBrackets>
 			<S.Tag>p</S.Tag>
 			<S.ClassName>className</S.ClassName>
-			<S.Tag>=</S.Tag>
+			<S.EqualSign>=</S.EqualSign>
 			<S.TailwindClasses>{`'text-sm text-justify font-normal ml-5'`}</S.TailwindClasses>
 			<S.TagBrackets>{'>'}</S.TagBrackets>
 

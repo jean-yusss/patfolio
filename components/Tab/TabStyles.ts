@@ -6,17 +6,20 @@ interface TabProps {
 }
 
 const ActiveStyles = css`
-	border-top: 1.5px solid var(--tab-activeBorder);
+	border-top-color: var(--tab-activeBorder);
 	background-color: var(--tab-activeBackground);
 	color: var(--tab-activeForeground);
+	border-bottom: 0;
 `;
 
 export const TabContainer = styled.div<TabProps>`
 	display: flex;
 	align-items: center;
+	height: 100%;
 	padding: 0.5rem 1rem;
 	border-right: 1px solid var(--tab-border);
-	border-top: 1.5px solid transparent;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
 	background-color: var(--tab-inactiveBackground);
 	color: var(--tab-inactiveForeground);
 	cursor: pointer;
@@ -25,11 +28,16 @@ export const TabContainer = styled.div<TabProps>`
 		margin-left: 0.5rem;
 	}
 
+	&:hover {
+		color: var(--tab-hoverForeground);
+		background-color: var(--tab-hoverBackground);
+	}
+
 	${({ path, router }) => path === router && ActiveStyles}
 `;
 
 export const TabText = styled.p`
 	font-size: 0.875rem;
-	line-height: 1rem;
+	line-height: 0.75rem;
 	font-weight: 400;
 `;

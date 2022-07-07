@@ -25,6 +25,8 @@ const DraculaOfficial = `
 	--tab-activeBorder: #ff79c680;
 	--tab-activeForeground: #f8f8f2;
 	--tab-border: #191a21;
+	--tab-hoverBackground: #282a36;
+	--tab-hoverForeground: #f8f8f2;
 	--tab-inactiveBackground: #21222c;
 	--tab-inactiveForeground: #6272a4;
 	
@@ -33,6 +35,7 @@ const DraculaOfficial = `
 
 	--asterisk: #bd93f9;
 	--brackets: #f8f8f2;
+	--border: transparent;
 	--className: #50fa7b;
 	--colon: #ff79c6;
 	--comment: #6272a4;

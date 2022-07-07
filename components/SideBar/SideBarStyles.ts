@@ -1,4 +1,10 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
+const GitHubDarkDimmed = css`
+	border-right: 1px;
+	border-right-style: solid;
+	border-color: #444c56;
+`;
 
 export const SideBarContainer = styled.div`
 	height: 100%;
@@ -7,18 +13,23 @@ export const SideBarContainer = styled.div`
 	color: var(--sideBar-foreground);
 	font-size: 0.75rem;
 	line-height: 1rem;
+	border-top: 1px solid var(--border);
 
 	@media (min-width: 850px) {
 		display: block;
 		width: 15rem;
 	}
+
+	${({ theme }) => theme === 'GitHub Dark Dimmed' && GitHubDarkDimmed};
 `;
 
 export const ExplorerContainer = styled.div`
+	height: 1.95rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0.5rem 1.5rem;
+	border-bottom: 1px solid var(--border);
 `;
 
 export const Explorer = styled.p`

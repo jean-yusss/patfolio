@@ -7,6 +7,7 @@ const EditorGroupHeader = () => (
 		<S.ContactTab />
 		<S.ProjectsTab />
 		<S.SettingsTab />
+		<S.LastTab />
 	</S.EditorGroupHeaderContainer>
 );
 

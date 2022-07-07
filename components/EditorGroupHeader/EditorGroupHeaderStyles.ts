@@ -41,3 +41,10 @@ export const SettingsTab = styled(Tab).attrs({
 	tab: 'Settings.json',
 	icon: 'json'
 })``;
+
+export const LastTab = styled.div`
+	flex: 1 1 0%;
+	border-top: 1px solid var(--border);
+	border-bottom: 1px solid var(--border);
+	height: 100%;
+`;

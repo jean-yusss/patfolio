@@ -6,7 +6,7 @@ import GitHubDarkDimmed from '../../themes/GitHubDarkDimmed';
 import tagStyles from '../../styles/tagStyles';
 
 const CustomStyles = createGlobalStyle`
-	[data-theme='Dracula Official'] { 
+	:root { 
 		${DraculaOfficial}
 	};
 

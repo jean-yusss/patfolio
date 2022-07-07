@@ -35,6 +35,10 @@ export const Tag = styled.span`
 	color: var(--tag);
 `;
 
+export const EqualSign = styled.span`
+	color: var(--equalSign);
+`;
+
 export const ClassName = styled.span`
 	color: var(--className);
 	margin-left: 0.5rem;

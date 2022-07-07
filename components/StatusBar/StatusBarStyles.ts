@@ -8,6 +8,7 @@ export const StatusBarContainer = styled.footer`
 	align-items: center;
 	background-color: var(--statusBar-background);
 	color: var(--statusBar-foreground);
+	border: 1px solid var(--border);
 `;
 
 export const LeftContainer = styled.div`

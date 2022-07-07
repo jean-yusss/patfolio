@@ -7,6 +7,8 @@ export const TitleBarContainer = styled.header`
 	height: 1.5rem;
 	width: 100%;
 	background-color: var(--titleBar-background);
+	border: 1px solid var(--border);
+	border-bottom: 0px;
 `;
 
 export const WindowButtons = styled.div`

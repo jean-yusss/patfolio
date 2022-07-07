@@ -10,6 +10,9 @@ export const ActivityBarContainer = styled.div`
 	justify-content: center;
 	height: 100%;
 	width: 3rem;
+	border-left: 1px solid var(--border);
+	border-right: 1px solid var(--border);
+	border-top: 1px solid var(--border);
 `;
 
 export const TopSection = styled.div`

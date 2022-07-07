@@ -17,9 +17,9 @@ export const TabContainer = styled.div<TabProps>`
 	align-items: center;
 	height: 100%;
 	padding: 0.5rem 1rem;
-	border-right: 1px solid var(--tab-border);
-	border-top: 1px solid var(--border);
-	border-bottom: 1px solid var(--border);
+	border-right: var(--tab-divide);
+	border-top: var(--tab-border);
+	border-bottom: var(--tab-border);
 	background-color: var(--tab-inactiveBackground);
 	color: var(--tab-inactiveForeground);
 	cursor: pointer;

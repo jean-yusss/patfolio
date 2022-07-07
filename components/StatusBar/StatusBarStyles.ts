@@ -8,7 +8,7 @@ export const StatusBarContainer = styled.footer`
 	align-items: center;
 	background-color: var(--statusBar-background);
 	color: var(--statusBar-foreground);
-	border: 1px solid var(--border);
+	border: var(--statusBar-border);
 `;
 
 export const LeftContainer = styled.div`
@@ -25,9 +25,9 @@ export const LeftContainer = styled.div`
 export const IconTextContainer = styled.div`
 	display: flex;
 	align-items: center;
+	padding-right: 0.25rem;
 	cursor: pointer;
 	height: 100%;
-	margin-right: 0.25rem;
 
 	&:hover {
 		background-color: var(--statusBar-hoverBackground);

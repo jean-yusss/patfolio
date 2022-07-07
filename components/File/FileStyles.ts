@@ -16,6 +16,7 @@ export const FileContainer = styled.div<FileProps>`
 		path === router && `background-color: var(--list-activeBackground)`};
 
 	&:hover {
+		color: var(--list-hoverForeground);
 		background-color: var(--list-hoverBackground);
 	}
 

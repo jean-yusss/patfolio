@@ -44,7 +44,7 @@ export const SettingsTab = styled(Tab).attrs({
 
 export const LastTab = styled.div`
 	flex: 1 1 0%;
-	border-top: 1px solid var(--border);
-	border-bottom: 1px solid var(--border);
+	border-top: var(--tab-border);
+	border-bottom: var(--tab-border);
 	height: 100%;
 `;

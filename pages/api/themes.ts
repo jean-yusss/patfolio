@@ -12,6 +12,12 @@ const themes = [
 		theme: 'GitHub Dark Dimmed',
 		developers: 'GitHub',
 		image: 'https://i.imgur.com/pZQP6BH.png'
+	},
+	{
+		id: 3,
+		theme: 'Winter Is Coming',
+		developers: 'John Papa',
+		image: 'https://i.imgur.com/JYiuLAH.png'
 	}
 ];
 

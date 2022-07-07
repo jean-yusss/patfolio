@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { useTheme } from 'next-themes';
 
 import Folder from '../Folder/Folder';
 
@@ -9,11 +8,10 @@ import * as S from './SideBarStyles';
 
 const SideBar = () => {
 	const [isOpen, setIsOpen] = useState<Boolean>(true);
-	const { theme } = useTheme();
 
 	return (
-		<S.SideBarContainer theme={theme}>
-			<S.ExplorerContainer theme={theme}>
+		<S.SideBarContainer>
+			<S.ExplorerContainer>
 				<S.Explorer>EXPLORER</S.Explorer>
 				{getIcon('ellipsis')}
 			</S.ExplorerContainer>

@@ -18,5 +18,5 @@ export const EditorContainer = styled.div`
 	background-color: var(--editor-background);
 	color: var(--editor-foreground);
 	overflow: hidden;
-	border-right: 1px solid var(--border);
+	border-right: var(--editor-border);
 `;

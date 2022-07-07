@@ -1,10 +1,13 @@
 import Image from 'next/image';
+import { useTheme } from 'next-themes';
 
 import getIcon from '../../utils/getIcon';
 
 import * as S from './ThemeCardStyles';
 
 const ThemeCard = ({ theme }: ThemeCardProps) => {
+	const { setTheme } = useTheme();
+
 	return (
 		<S.ThemeCardContainer>
 			<S.ImageContainer>
@@ -18,7 +21,9 @@ const ThemeCard = ({ theme }: ThemeCardProps) => {
 				<S.ThemeDevelopers>{theme.developers}</S.ThemeDevelopers>
 			</S.ThemeDevelopersCntainer>
 
-			<S.SetThemeButton>Set Color Theme</S.SetThemeButton>
+			<S.SetThemeButton onClick={() => setTheme(theme.theme)}>
+				Set Color Theme
+			</S.SetThemeButton>
 		</S.ThemeCardContainer>
 	);
 };

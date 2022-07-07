@@ -3,17 +3,19 @@ import ThemeCard from '../components/ThemeCard/ThemeCard';
 
 import { getThemes } from './api/themes';
 
+import * as S from '../styles/SettingsStyles';
+
 const Settings = ({ themes }: SettingsProps) => {
 	return (
-		<div className='h-full w-full overflow-y-scroll p-4'>
-			<h1 className='text-xl text-center uppercase font-semibold'>Change Themes</h1>
+		<S.SettingsContainer>
+			<S.SettingsTitle>Change Themes</S.SettingsTitle>
 
-			<div className='grid grid-cols-4 gap-8 mt-8'>
+			<S.Themes>
 				{themes.map(theme => (
-					<ThemeCard theme={theme} />
+					<ThemeCard key={theme.id} theme={theme} />
 				))}
-			</div>
-		</div>
+			</S.Themes>
+		</S.SettingsContainer>
 	);
 };
 

@@ -2,11 +2,13 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 const themes = [
 	{
+		id: 1,
 		theme: 'Dracula Official',
 		developers: 'Dracula Theme',
 		image: 'https://i.imgur.com/VPl7GUr.png'
 	},
 	{
+		id: 2,
 		theme: 'GitHub Dark Dimmed',
 		developers: 'GitHub',
 		image: 'https://i.imgur.com/pZQP6BH.png'

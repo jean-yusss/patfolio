@@ -70,6 +70,7 @@ interface ProjectsProps {
 }
 
 interface Theme {
+	id: number;
 	theme: string;
 	developers: string;
 	image: string;

@@ -4,6 +4,7 @@ import DraculaOfficial from '../../themes/DraculaOfficial';
 import GitHubDarkDimmed from '../../themes/GitHubDarkDimmed';
 import WinterIsComing from '../../themes/WinterIsComing';
 import SynthWave84 from '../../themes/SynthWave84';
+import Nord from '../../themes/Nord';
 
 import tagStyles from '../../styles/tagStyles';
 
@@ -30,6 +31,11 @@ const CustomStyles = createGlobalStyle`
 	/* SynthWave '84 (Neon Dreams) Theme */
 	[data-theme="SynthWave '84"] { 
 		${SynthWave84} 
+	};
+
+	/* Nord Theme */
+	[data-theme="Nord"] { 
+		${Nord} 
 	};
 
 	/* ProjectCard Tag Styles */

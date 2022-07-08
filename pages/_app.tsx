@@ -27,7 +27,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 				'Dracula Official',
 				'GitHub Dark Dimmed',
 				'Winter Is Coming',
-				"SynthWave '84"
+				"SynthWave '84",
+				'Nord'
 			]}
 		>
 			<Toaster />

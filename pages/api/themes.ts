@@ -24,6 +24,12 @@ const themes = [
 		theme: "SynthWave '84",
 		developers: 'Robb Owen',
 		image: 'https://i.imgur.com/orMu9PP.png'
+	},
+	{
+		id: 5,
+		theme: 'Nord',
+		developers: 'arcticicestudio',
+		image: 'https://i.imgur.com/7NuYMjD.png'
 	}
 ];
 

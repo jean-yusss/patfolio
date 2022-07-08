@@ -49,7 +49,9 @@ export const Class = styled.div`
 	display: flex;
 `;
 
-export const ClassName = styled.p`
+export const ClassName = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	color: var(--className);
 	margin-right: 0.5rem;
 `;

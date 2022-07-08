@@ -37,6 +37,10 @@ export const Value = styled.a.attrs<ValueProps>(
 	&:hover {
 		text-decoration: underline;
 	}
+
+	${({ theme }) =>
+		theme.includes('Synth') &&
+		'text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;'}
 `;
 
 export const SemiColon = styled.p`

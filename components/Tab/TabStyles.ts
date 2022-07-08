@@ -34,6 +34,12 @@ export const TabContainer = styled.div<TabProps>`
 	}
 
 	${({ path, router }) => path === router && ActiveStyles}
+
+	${({ path, router, theme }) =>
+		path === router &&
+		theme.includes('Synth') &&
+		ActiveStyles &&
+		`box-shadow: inset 0 -5px 25px #fc28a825;`};
 `;
 
 export const TabText = styled.p`

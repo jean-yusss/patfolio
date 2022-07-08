@@ -23,7 +23,9 @@ export const LabelContainer = styled.div`
 	}
 `;
 
-export const Label = styled.p`
+export const Label = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	text-transform: uppercase;
 `;
 

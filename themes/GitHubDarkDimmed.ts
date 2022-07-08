@@ -1,6 +1,6 @@
 const GitHubDarkDimmed = `
   --activityBar-activeBackground: #bd93f910;
-	--activityBar-activeBorder: #ec775c;
+	--activityBar-activeBorder: 2px solid #ec775c;
 	--activityBar-activeForeground: #adbac7;
 	--activityBar-background: #22272e;
 	--activityBar-border: 1px solid #444c56;
@@ -13,6 +13,7 @@ const GitHubDarkDimmed = `
 	--editorGroupHeader-background: #1c2128;
 
 	--list-activeBackground: #44475a75;
+	--list-activeForeground: #adbac7;
 	--list-hoverBackground: #636e7b1a;
 	--list-hoverForeground: #adbac7;
 
@@ -47,11 +48,12 @@ const GitHubDarkDimmed = `
 	--colon: #a0a0a0;
 	--comment: #dcbdfb;
 	--contact-border: #e5534b;
-	--contact-button: #e5534b;
-	--contact-hoverButton: #e5534bf1;
+	--contactButton-background: #e5534b;
+	--contactButton-foreground: #ffffff;
+	--contactButton-hoverBackground: #e5534bf1;
 	--contact-error: #e5534b;
 	--equalSign: #f47067;
-	--font: normal;
+	--fontStyle: normal;
 	--key: #6cb6ff;
 	--lineNumber: #768390;
 	--projectCard: #1c2128;
@@ -59,9 +61,8 @@ const GitHubDarkDimmed = `
 	--string: #96d0ff;
 	--tag: #8ddb8c;
 	--tag-brackets: #adbac7;
-	--themeCard-background: #1c2128;
 	--themeCardButton-background: #347d39;
-	--themeCardButton-foreground: #adbac7;
+	--themeCardButton-foreground: #ffffff;
 	--themeCardButton-hoverBackground: #46954a;
 	--value: #6cb6ff;
 `;

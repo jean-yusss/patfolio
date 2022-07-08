@@ -1,6 +1,6 @@
 const DraculaOfficial = `
 	--activityBar-activeBackground: #bd93f910;
-	--activityBar-activeBorder: #ff79c680;
+	--activityBar-activeBorder: 2px solid #ff79c680;
 	--activityBar-activeForeground: #f8f8f2;
 	--activityBar-background: #343746;
 	--activityBar-border: none;
@@ -13,6 +13,7 @@ const DraculaOfficial = `
 	--editorGroupHeader-background: #191a21;
 
 	--list-activeBackground: #44475a75;
+	--list-activeForeground: #f8f8f2;
 	--list-hoverBackground: #44475a75;
 	--list-hoverForeground: #f8f8f2;
 
@@ -30,7 +31,7 @@ const DraculaOfficial = `
 	--tab-activeBackground: #282a36;
 	--tab-activeBorder: #ff79c680;
 	--tab-activeForeground: #f8f8f2;
-	--tab-border: none;
+	--tab-border: 1px solid transparent;
 	--tab-divide: 1px solid #191a21;
 	--tab-hoverBackground: #282a36;
 	--tab-hoverForeground: #f8f8f2;
@@ -42,16 +43,17 @@ const DraculaOfficial = `
 	--titleBar-foreground: #f8f8f2;
 
 	--asterisk: #bd93f9;
-	--brackets: #f8f8f2;
+	--brackets: #da70d6;
 	--className: #50fa7b;
 	--colon: #ff79c6;
 	--comment: #6272a4;
 	--contact-border: #bd93f9;
-	--contact-button: #bd93f9;
-	--contact-hoverButton: #bd93f9f1;
+	--contactButton-background: #bd93f9;
+	--contactButton-foreground: #f8f8f2;
+	--contactButton-hoverBackground: #bd93f9f1;
 	--contact-error: #bd93f9;
 	--equalSign: #f8f8f2;
-	--font: normal;
+	--fontStyle: normal;
 	--key: #8be9fd;
 	--lineNumber: #6272a4;
 	--projectCard: #21222c;
@@ -59,7 +61,6 @@ const DraculaOfficial = `
 	--string: #f1fa8c;
 	--tag: #ff79c6;
 	--tag-brackets: #f8f8f2;
-	--themeCard-background: #21222c;
 	--themeCardButton-background: #50fa7b90;
 	--themeCardButton-foreground: #f8f8f2;
 	--themeCardButton-hoverBackground: #50fa7b60;

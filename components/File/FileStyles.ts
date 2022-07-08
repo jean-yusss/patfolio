@@ -1,9 +1,14 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 interface FileProps {
 	path: string;
 	router: string;
 }
+
+const ActiveStyles = css`
+	color: var(--list-activeForeground);
+	background-color: var(--list-activeBackground);
+`;
 
 export const FileContainer = styled.div<FileProps>`
 	display: flex;
@@ -12,8 +17,7 @@ export const FileContainer = styled.div<FileProps>`
 	padding-left: 1rem;
 	cursor: pointer;
 
-	${({ path, router }) =>
-		path === router && `background-color: var(--list-activeBackground)`};
+	${({ path, router }) => path === router && ActiveStyles};
 
 	&:hover {
 		color: var(--list-hoverForeground);

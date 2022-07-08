@@ -16,6 +16,8 @@ export const SkillContainer = styled.div<SkillProps>`
 	}
 `;
 
-export const SkillText = styled.p`
+export const SkillText = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	font-weight: 600;
 `;

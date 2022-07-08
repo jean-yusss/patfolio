@@ -18,6 +18,12 @@ const themes = [
 		theme: 'Winter Is Coming',
 		developers: 'John Papa',
 		image: 'https://i.imgur.com/JYiuLAH.png'
+	},
+	{
+		id: 4,
+		theme: "SynthWave '84",
+		developers: 'Robb Owen',
+		image: 'https://i.imgur.com/orMu9PP.png'
 	}
 ];
 

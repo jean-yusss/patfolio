@@ -1,6 +1,6 @@
 const WinterIsComing = `
   --activityBar-activeBackground: none;
-	--activityBar-activeBorder: #99d0f7;
+	--activityBar-activeBorder: 2px solid #99d0f7;
 	--activityBar-activeForeground: #99d0f7;
 	--activityBar-background: #011627;
 	--activityBar-border: 1px solid #219fd544;
@@ -13,6 +13,7 @@ const WinterIsComing = `
 	--editorGroupHeader-background: #011627;
 
 	--list-activeBackground: #0e293f;
+	--list-activeForeground: #219fd5;
 	--list-hoverBackground: #011627;
   --list-hoverForeground: #219fd5;
 
@@ -47,11 +48,12 @@ const WinterIsComing = `
 	--colon: #a7dbf7;;
 	--comment: #999999;
 	--contact-border: #219fd5;
-	--contact-button: #219fd5;
-	--contact-hoverButton: #219fd5f1;
+	--contactButton-background: #219fd5;
+	--contactButton-foreground: #ffffff;
+	--contactButton-hoverBackground: #219fd5f1;
 	--contact-error: #219fd5;;
 	--equalSign: #219fd5;
-  --font: italic;
+  --fontStyle: italic;
 	--key: #7fdbca;
 	--lineNumber: #219fd5;
 	--projectCard: #112233;
@@ -59,7 +61,6 @@ const WinterIsComing = `
 	--string: #bcf0c0;
 	--tag: #219fd5;
 	--tag-brackets: #a7dbf7;;
-	--themeCard-background: #112233;
 	--themeCardButton-background: #03648a;
 	--themeCardButton-foreground: #ffffff;
 	--themeCardButton-hoverBackground: #219fd5;

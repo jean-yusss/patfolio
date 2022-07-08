@@ -6,8 +6,6 @@ export const ThemeCardContainer = styled.div`
 	align-items: center;
 	padding: 1rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-	background-color: var(--themeCard-background);
 `;
 
 export const ImageContainer = styled.div`

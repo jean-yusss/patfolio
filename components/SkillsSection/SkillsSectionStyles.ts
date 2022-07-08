@@ -23,7 +23,9 @@ export const SkillsBox = styled.div`
 	border-radius: 0.5rem;
 `;
 
-export const SkillsTitle = styled.h2`
+export const SkillsTitle = styled.h2.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-red' }
+)`
 	text-align: center;
 	margin-top: 0.5rem;
 	font-weight: 600;

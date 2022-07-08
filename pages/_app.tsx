@@ -23,7 +23,12 @@ const App = ({ Component, pageProps }: AppProps) => {
 	return (
 		<ThemeProvider
 			defaultTheme='Dracula Official'
-			themes={['Dracula Official', 'GitHub Dark Dimmed', 'Winter Is Coming']}
+			themes={[
+				'Dracula Official',
+				'GitHub Dark Dimmed',
+				'Winter Is Coming',
+				"SynthWave '84"
+			]}
 		>
 			<Toaster />
 			<GlobalStyles />

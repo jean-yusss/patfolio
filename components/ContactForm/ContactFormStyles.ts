@@ -73,7 +73,8 @@ export const SubmitButton = styled.button`
 	font-size: 0.75rem;
 	line-height: 1rem;
 	font-weight: 700;
-	background-color: var(--contact-button);
+	color: var(--contactButton-foreground);
+	background-color: var(--contactButton-background);
 
 	@media (min-width: 400px) {
 		font-size: 0.875rem;
@@ -86,6 +87,6 @@ export const SubmitButton = styled.button`
 	}
 
 	&:hover {
-		background-color: var(--contact-hoverButton);
+		background-color: var(--contactButton-hoverBackground);
 	}
 `;

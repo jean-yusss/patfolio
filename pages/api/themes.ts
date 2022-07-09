@@ -36,6 +36,12 @@ const themes = [
 		theme: 'Shades Of Purple',
 		developers: 'Ahmad Awais',
 		image: 'https://i.imgur.com/qqX3K2E.png'
+	},
+	{
+		id: 7,
+		theme: 'Vue Theme',
+		developers: 'mariorodeghiero',
+		image: 'https://i.imgur.com/38AizNw.png'
 	}
 ];
 

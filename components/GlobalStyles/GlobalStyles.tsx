@@ -6,6 +6,7 @@ import WinterIsComing from '../../themes/WinterIsComing';
 import SynthWave84 from '../../themes/SynthWave84';
 import Nord from '../../themes/Nord';
 import ShadesOfPurple from '../../themes/ShadesOfPurple';
+import VueTheme from '../../themes/VueTheme';
 
 import tagStyles from '../../styles/tagStyles';
 
@@ -42,6 +43,11 @@ const CustomStyles = createGlobalStyle`
 	/* Shades Of Purple Theme */
 	[data-theme="Shades Of Purple"] { 
 		${ShadesOfPurple} 
+	};
+
+	/* Vue Theme */
+	[data-theme="Vue Theme"] { 
+		${VueTheme} 
 	};
 
 	/* ProjectCard Tag Styles */

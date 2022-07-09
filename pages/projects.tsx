@@ -21,7 +21,10 @@ export const getStaticProps: GetStaticProps = async () => {
 	const projects = getProjects();
 
 	return {
-		props: { projects }
+		props: {
+			projects,
+			title: 'Projects'
+		}
 	};
 };
 

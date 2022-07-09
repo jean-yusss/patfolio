@@ -23,7 +23,10 @@ export const getStaticProps: GetStaticProps = async () => {
 	const themes = getThemes();
 
 	return {
-		props: { themes }
+		props: {
+			themes,
+			title: 'Settings'
+		}
 	};
 };
 

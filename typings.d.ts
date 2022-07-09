@@ -16,7 +16,11 @@ interface FileProps {
 }
 
 interface LayoutProps {
-	children: JSX.Element;
+	children?: React.ReactNode;
+}
+
+interface SEOProps {
+	title: string;
 }
 
 interface SkillProps {

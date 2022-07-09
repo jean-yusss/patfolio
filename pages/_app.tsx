@@ -3,6 +3,7 @@ import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from 'next-themes';
 import { useEffect, useState } from 'react';
 
+import Seo from '../components/SEO/Seo';
 import Layout from '../components/Layout/Layout';
 import GlobalStyles from '../components/GlobalStyles/GlobalStyles';
 
@@ -34,6 +35,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 			<Toaster />
 			<GlobalStyles />
 			<Layout>
+				<Seo title={`Patrick Nguyen | ${pageProps.title}`} />
 				<Component {...pageProps} />
 			</Layout>
 		</ThemeProvider>

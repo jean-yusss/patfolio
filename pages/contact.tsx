@@ -1,3 +1,5 @@
+import { GetStaticProps } from 'next';
+
 import Media from '../components/Media/Media';
 import ContactForm from '../components/ContactForm/ContactForm';
 
@@ -9,5 +11,11 @@ const Contact = () => (
 		<ContactForm />
 	</ContactContainer>
 );
+
+export const getStaticProps: GetStaticProps = async () => {
+	return {
+		props: { title: 'Contact' }
+	};
+};
 
 export default Contact;

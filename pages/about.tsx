@@ -1,3 +1,5 @@
+import { GetStaticProps } from 'next';
+
 import AboutMe from '../components/AboutMe/AboutMe';
 import SkillsSection from '../components/SkillsSection/SkillsSection';
 
@@ -9,5 +11,11 @@ const About = () => (
 		<SkillsSection />
 	</AboutContainer>
 );
+
+export const getStaticProps: GetStaticProps = async () => {
+	return {
+		props: { title: 'About' }
+	};
+};
 
 export default About;

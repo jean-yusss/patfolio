@@ -43,7 +43,7 @@ const GitHubDarkDimmed = `
 	--titleBar-foreground: #768390;
 
 	--asterisk: #e5534b;
-	--brackets: #ffd700;
+	--brackets: #6cb6ff;
 	--className: #6cb6ff;
 	--colon: #a0a0a0;
 	--comment: #dcbdfb;
@@ -54,7 +54,7 @@ const GitHubDarkDimmed = `
 	--contact-error: #e5534b;
 	--equalSign: #f47067;
 	--fontStyle: normal;
-	--key: #6cb6ff;
+	--key: #b392f0;
 	--lineNumber: #768390;
 	--projectCard: #1c2128;
 	--semicolon: #a0a0a0;
@@ -64,7 +64,7 @@ const GitHubDarkDimmed = `
 	--themeCardButton-background: #347d39;
 	--themeCardButton-foreground: #ffffff;
 	--themeCardButton-hoverBackground: #46954a;
-	--value: #6cb6ff;
+	--value: #8ddb8c;
 `;
 
 export default GitHubDarkDimmed;

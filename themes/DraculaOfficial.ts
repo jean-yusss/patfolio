@@ -11,6 +11,12 @@ const DraculaOfficial = `
 	--editor-border: none;
 	--editor-foreground: #f8f8f2;
 	--editorGroupHeader-background: #191a21;
+	--editorLineNumber-foreground: #6272a4;
+
+	--extensionButton-prominentBackground: #50fa7b90;
+	--extensionButton-prominentForeground: #f8f8f2;
+	--extensionButton-prominentHoverBackground: #50fa7b60;
+	--extensionIcon-verifiedForeground: #3794ff;
 
 	--list-activeBackground: #44475a75;
 	--list-activeForeground: #f8f8f2;
@@ -29,8 +35,9 @@ const DraculaOfficial = `
 	--statusBar-hoverBackground: #ffffff1f;
 
 	--tab-activeBackground: #282a36;
-	--tab-activeBorder: #ff79c680;
+	--tab-activeBottomBorder: transparent;
 	--tab-activeForeground: #f8f8f2;
+	--tab-activeTopBorder: #ff79c680;
 	--tab-border: 1px solid transparent;
 	--tab-divide: 1px solid #191a21;
 	--tab-hoverBackground: #282a36;
@@ -55,15 +62,11 @@ const DraculaOfficial = `
 	--equalSign: #f8f8f2;
 	--fontStyle: normal;
 	--key: #8be9fd;
-	--lineNumber: #6272a4;
 	--projectCard: #21222c;
 	--semicolon: #f8f8f2;
 	--string: #f1fa8c;
 	--tag: #ff79c6;
 	--tag-brackets: #f8f8f2;
-	--themeCardButton-background: #50fa7b90;
-	--themeCardButton-foreground: #f8f8f2;
-	--themeCardButton-hoverBackground: #50fa7b60;
 	--value: #bd93f9;
 `;
 

@@ -29,7 +29,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 				'GitHub Dark Dimmed',
 				'Winter Is Coming',
 				"SynthWave '84",
-				'Nord'
+				'Nord',
+				'Shades Of Purple'
 			]}
 		>
 			<Toaster />

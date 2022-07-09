@@ -65,9 +65,9 @@ import { MdVerified } from 'react-icons/md';
 
 // ActivityBar icons
 const ActivityBarIcons = css`
-	height: 3rem;
-	width: 3rem;
-	padding: 0.7rem;
+	height: 2.875rem;
+	width: 2.875rem;
+	padding: 0.625rem;
 	cursor: pointer;
 
 	&:hover {
@@ -128,7 +128,7 @@ export const JsonIcon = styled(VscJson)`
 
 export const VerifiedIcon = styled(MdVerified)`
 	${SmallIcons};
-	color: #3794ff;
+	color: var(--extensionIcon-verifiedForeground);
 `;
 
 // SideBar icons

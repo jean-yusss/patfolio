@@ -11,6 +11,12 @@ const Nord = `
 	--editor-border: none;
 	--editor-foreground: #d8dee9;
 	--editorGroupHeader-background: #2e3440;
+	--editorLineNumber-foreground: #4c566a;
+
+	--extensionButton-prominentBackground: #88c0d0;
+	--extensionButton-prominentForeground: #2e3440;
+	--extensionButton-prominentHoverBackground: #81a1c1;
+	--extensionIcon-verifiedForeground: #88c0d0;
 
 	--list-activeBackground: #434c5e;
 	--list-activeForeground: #d8dee9;
@@ -29,8 +35,9 @@ const Nord = `
 	--statusBar-hoverBackground: #434c5e;
 
 	--tab-activeBackground: #3b4252;
-	--tab-activeBorder: #88c0d000;
+	--tab-activeBottomBorder: #88c0d000;
 	--tab-activeForeground: #d8dee9;
+	--tab-activeTopBorder: #88c0d000;
 	--tab-border: 1px solid #3b425200;
 	--tab-divide: 1px solid #3b425200;
 	--tab-hoverBackground: #3b4252cc;
@@ -55,15 +62,11 @@ const Nord = `
 	--equalSign: #81a1c1;
 	--fontStyle: normal;
 	--key: #d8dee9;
-	--lineNumber: #4c566a;
 	--projectCard: #3b4252;
 	--semicolon: #5e81ac;
 	--string: #a3be8c;
 	--tag: #8fbcbb;
 	--tag-brackets: #81a1c1;
-	--themeCardButton-background: #88c0d0;
-	--themeCardButton-foreground: #2e3440;
-	--themeCardButton-hoverBackground: #81a1c1;
 	--value: #81a1c1;
 `;
 

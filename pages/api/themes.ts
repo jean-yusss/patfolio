@@ -30,6 +30,12 @@ const themes = [
 		theme: 'Nord',
 		developers: 'arcticicestudio',
 		image: 'https://i.imgur.com/7NuYMjD.png'
+	},
+	{
+		id: 6,
+		theme: 'Shades Of Purple',
+		developers: 'Ahmad Awais',
+		image: 'https://i.imgur.com/qqX3K2E.png'
 	}
 ];
 

@@ -14,23 +14,15 @@ export const TagContainer = styled.div`
 	display: flex;
 `;
 
-export const Tag = styled.p`
+export const Tag = styled.p.attrs({ className: 'neon-red' })`
 	color: var(--tag);
-
-	${({ theme }) =>
-		theme.includes('Synth') &&
-		'text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75'}
 `;
 
-export const TagBrackets = styled.p`
+export const TagBrackets = styled.p.attrs({ className: 'neon-blue' })`
 	color: var(--tag-brackets);
-
-	${({ theme }) =>
-		theme.includes('Synth') &&
-		'text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975'}
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h1.attrs({ className: 'neon-red' })`
 	text-transform: uppercase;
 	font-weight: 600;
 `;

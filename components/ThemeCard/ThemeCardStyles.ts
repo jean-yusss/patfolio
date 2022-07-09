@@ -37,8 +37,8 @@ export const ThemeDevelopers = styled.p`
 `;
 
 export const SetThemeButton = styled.button`
-	color: var(--themeCardButton-foreground);
-	background-color: var(--themeCardButton-background);
+	color: var(--extensionButton-prominentForeground);
+	background-color: var(--extensionButton-prominentBackground);
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	font-weight: 600;
@@ -46,6 +46,6 @@ export const SetThemeButton = styled.button`
 	margin-top: 0.5rem;
 
 	&:hover {
-		background-color: var(--themeCardButton-hoverBackground);
+		background-color: var(--extensionButton-prominentHoverBackground);
 	}
 `;

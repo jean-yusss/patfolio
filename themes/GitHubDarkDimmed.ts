@@ -11,6 +11,12 @@ const GitHubDarkDimmed = `
 	--editor-border: 1px solid #444c56;
 	--editor-foreground: #adbac7;
 	--editorGroupHeader-background: #1c2128;
+	--editorLineNumber-foreground: #768390;
+
+	--extensionButton-prominentBackground: #347d39;
+	--extensionButton-prominentForeground: #ffffff;
+	--extensionButton-prominentHoverBackground: #46954a;
+	--extensionIcon-verifiedForeground: #539bf5;
 
 	--list-activeBackground: #44475a75;
 	--list-activeForeground: #adbac7;
@@ -29,8 +35,9 @@ const GitHubDarkDimmed = `
 	--statusBar-hoverBackground: #ffffff1f;
 
 	--tab-activeBackground: #22272e;
-	--tab-activeBorder: #ec775c;
+	--tab-activeBottomBorder: transparent;
 	--tab-activeForeground: #adbac7;
+	--tab-activeTopBorder: #ec775c;
 	--tab-border: 1px solid #444c56;
 	--tab-divide: 1px solid #444c56;
 	--tab-hoverBackground: #22272e;
@@ -55,15 +62,11 @@ const GitHubDarkDimmed = `
 	--equalSign: #f47067;
 	--fontStyle: normal;
 	--key: #b392f0;
-	--lineNumber: #768390;
 	--projectCard: #1c2128;
 	--semicolon: #a0a0a0;
 	--string: #96d0ff;
 	--tag: #8ddb8c;
 	--tag-brackets: #adbac7;
-	--themeCardButton-background: #347d39;
-	--themeCardButton-foreground: #ffffff;
-	--themeCardButton-hoverBackground: #46954a;
 	--value: #8ddb8c;
 `;
 

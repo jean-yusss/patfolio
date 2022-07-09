@@ -6,10 +6,10 @@ interface TabProps {
 }
 
 const ActiveStyles = css`
-	border-top-color: var(--tab-activeBorder);
+	border-top-color: var(--tab-activeTopBorder);
+	border-bottom-color: var(--tab-activeBottomBorder);
 	background-color: var(--tab-activeBackground);
 	color: var(--tab-activeForeground);
-	border-bottom: 0;
 `;
 
 const SynthWaveStyles = css`

@@ -11,6 +11,12 @@ const WinterIsComing = `
 	--editor-border: none;
 	--editor-foreground: #a7dbf7;
 	--editorGroupHeader-background: #011627;
+	--editorLineNumber-foreground: #219fd5;
+
+	--extensionButton-prominentBackground: #03648a;
+	--extensionButton-prominentForeground: #ffffff;
+	--extensionButton-prominentHoverBackground: #219fd5;
+	--extensionIcon-verifiedForeground: #219fd5;
 
 	--list-activeBackground: #0e293f;
 	--list-activeForeground: #219fd5;
@@ -29,9 +35,10 @@ const WinterIsComing = `
 	--statusBar-hoverBackground: #03648a;
 
 	--tab-activeBackground: #0b2942;
-	--tab-activeBorder: #219fd5;
+	--tab-activeBottomBorder: transparent;
 	--tab-activeForeground: #d2dee7;
-	--tab-border: none;
+	--tab-activeTopBorder: #219fd5;
+	--tab-border: 1px solid transparent;
 	--tab-divide: 1px solid #252526;
 	--tab-hoverBackground: none;
 	--tab-hoverForeground: #219fd5;
@@ -55,15 +62,11 @@ const WinterIsComing = `
 	--equalSign: #219fd5;
   --fontStyle: italic;
 	--key: #7fdbca;
-	--lineNumber: #219fd5;
 	--projectCard: #112233;
-	--semicolon: #a7dbf7;;
+	--semicolon: #a7dbf7;
 	--string: #bcf0c0;
 	--tag: #219fd5;
-	--tag-brackets: #a7dbf7;;
-	--themeCardButton-background: #03648a;
-	--themeCardButton-foreground: #ffffff;
-	--themeCardButton-hoverBackground: #219fd5;
+	--tag-brackets: #a7dbf7;
 	--value: #f29fd8;
 `;
 

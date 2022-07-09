@@ -18,7 +18,9 @@ export const AboutMeContainer = styled.section.attrs({
 	}
 `;
 
-export const Name = styled(H1).attrs({ title: 'Patrick Nguyen' })``;
+export const Name = styled(H1).attrs({
+	title: 'Patrick Nguyen'
+})``;
 
 export const TagContainer = styled.div`
 	@media (min-width: 1024px) {
@@ -27,15 +29,11 @@ export const TagContainer = styled.div`
 	}
 `;
 
-export const TagBrackets = styled.span.attrs(
-	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
-)`
+export const TagBrackets = styled.span.attrs({ className: 'neon-blue' })`
 	color: var(--tag-brackets);
 `;
 
-export const Tag = styled.span.attrs(
-	({ theme }) => theme.includes('Synth') && { className: 'neon-red' }
-)`
+export const Tag = styled.span.attrs({ className: 'neon-red' })`
 	color: var(--tag);
 `;
 
@@ -43,9 +41,7 @@ export const EqualSign = styled.span`
 	color: var(--equalSign);
 `;
 
-export const ClassName = styled.span.attrs(
-	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
-)`
+export const ClassName = styled.span.attrs({ className: 'neon-yellow' })`
 	color: var(--className);
 	margin-left: 0.5rem;
 `;
@@ -54,9 +50,7 @@ export const TailwindClasses = styled.span`
 	color: var(--string);
 `;
 
-export const TagText = styled.p.attrs(
-	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
-)`
+export const TagText = styled.p.attrs({ className: 'neon-blue' })`
 	margin: 0.25rem 1.25rem;
 	font-size: 0.875rem;
 	line-height: 1.25rem;

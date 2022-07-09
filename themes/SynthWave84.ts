@@ -11,6 +11,12 @@ const SynthWave84 = `
 	--editor-border: none;
 	--editor-foreground: #bbbbbb;
 	--editorGroupHeader-background: #241b2f;
+	--editorLineNumber-foreground: #ffffff73;
+
+	--extensionButton-prominentBackground: #f97e72;
+	--extensionButton-prominentForeground: #ffffff;
+	--extensionButton-prominentHoverBackground: #ff7edb;
+	--extensionIcon-verifiedForeground: #f97e72;
 
 	--list-activeBackground: #ffffff20;
 	--list-activeForeground: #ffffff;
@@ -29,8 +35,9 @@ const SynthWave84 = `
 	--statusBar-hoverBackground: #34294f;
 
 	--tab-activeBackground: #262335;
-	--tab-activeBorder: #fc28a8;
+	--tab-activeBottomBorder: #fc28a8;
 	--tab-activeForeground: #ffffff;
+	--tab-activeTopBorder: transparent;
 	--tab-border: 1px solid transparent;
 	--tab-divide: none;
 	--tab-hoverBackground: #a148ab20;
@@ -54,17 +61,28 @@ const SynthWave84 = `
 	--contact-error: #fc28a8;
 	--equalSign: #f4eee4;
 	--fontStyle: normal;
-	--key: #72f1b8;
-	--lineNumber: #ffffff73;
+	--key: #72f1b8; 
 	--projectCard: #241b2f;
 	--semicolon: #bbbbbb;
 	--string: #ff8b39;
 	--tag: #fff5f6;
 	--tag-brackets: #fdfdfd;
-	--themeCardButton-background: #f97e72;
-	--themeCardButton-foreground: #ffffff;
-	--themeCardButton-hoverBackground: #ff7edb;
 	--value: #fff5f6;
+
+	.neon-yellow {
+		color: #f4eee4;
+		text-shadow: 0 0 2px #000, 0 0 10px #f39f0575, 0 0 5px #f39f0575, 0 0 25px #f39f0575;
+	}
+
+	.neon-blue {
+		color: #fdfdfd;
+		text-shadow: 0 0 2px #000, 0 0 10px #03edf975, 0 0 5px #03edf975, 0 0 25px #03edf975;
+	}
+
+	.neon-red {
+		color: #fff5f6;
+		text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
+	}
 `;
 
 export default SynthWave84;

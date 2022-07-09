@@ -36,7 +36,7 @@ export const LineContainer = styled.div`
 `;
 
 export const Line = styled.p`
-	color: var(--lineNumber);
+	color: var(--editorLineNumber-foreground);
 `;
 
 export const ClassContainer = styled.div`
@@ -49,9 +49,7 @@ export const Class = styled.div`
 	display: flex;
 `;
 
-export const ClassName = styled.p.attrs(
-	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
-)`
+export const ClassName = styled.p.attrs({ className: 'neon-yellow' })`
 	color: var(--className);
 	margin-right: 0.5rem;
 `;

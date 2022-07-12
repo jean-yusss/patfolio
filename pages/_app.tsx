@@ -31,7 +31,8 @@ const App = ({ Component, pageProps }: AppProps) => {
 				"SynthWave '84",
 				'Nord',
 				'Shades Of Purple',
-				'Vue Theme'
+				'Vue Theme',
+				'Tokyo Night Storm'
 			]}
 		>
 			<Toaster />

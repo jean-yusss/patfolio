@@ -7,6 +7,7 @@ import SynthWave84 from '../../themes/SynthWave84';
 import Nord from '../../themes/Nord';
 import ShadesOfPurple from '../../themes/ShadesOfPurple';
 import VueTheme from '../../themes/VueTheme';
+import TokyoNightStorm from '../../themes/TokyoNightStorm';
 
 import tagStyles from '../../styles/tagStyles';
 import neonDreams from '../../styles/neonDreams';
@@ -49,6 +50,11 @@ const CustomStyles = createGlobalStyle`
 	/* Vue Theme */
 	[data-theme="Vue Theme"] { 
 		${VueTheme} 
+	};
+
+	/* Tokyo Night Storm Theme */
+	[data-theme="Tokyo Night Storm"] { 
+		${TokyoNightStorm} 
 	};
 
 	/* ProjectCard Tag Styles */

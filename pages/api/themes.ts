@@ -42,6 +42,12 @@ const themes = [
 		theme: 'Vue Theme',
 		developers: 'mariorodeghiero',
 		image: 'https://i.imgur.com/38AizNw.png'
+	},
+	{
+		id: 8,
+		theme: 'Tokyo Night Storm',
+		developers: 'enkia',
+		image: 'https://i.imgur.com/ikdlDq0.png'
 	}
 ];
 

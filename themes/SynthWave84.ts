@@ -50,7 +50,7 @@ const SynthWave84 = `
 	--titleBar-foreground: #cccccc;
 
 	--asterisk: #fc28a8;
-	--brackets: #ffd700;
+	--brackets: #ffffff;
 	--className: #ffffff;
 	--colon: #bbbbbb;
 	--comment: #848bbd;

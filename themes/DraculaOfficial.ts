@@ -57,7 +57,7 @@ const DraculaOfficial = `
 	--contact-border: #bd93f9;
 	--contactButton-background: #bd93f9;
 	--contactButton-foreground: #f8f8f2;
-	--contactButton-hoverBackground: #bd93f9f1;
+	--contactButton-hoverBackground: #bd93f9dd;
 	--contact-error: #bd93f9;
 	--equalSign: #f8f8f2;
 	--fontStyle: normal;

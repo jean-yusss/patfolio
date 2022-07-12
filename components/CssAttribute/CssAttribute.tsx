@@ -6,7 +6,7 @@ const CssAttribute = ({ property, value, href }: CssAttributeProps) => {
 
 	return (
 		<S.CssAttributeContainer>
-			<S.Key>{property}</S.Key>
+			<S.Key theme={theme}>{property}</S.Key>
 			<S.Colon>:</S.Colon>
 			<S.Value href={href} theme={theme}>
 				{value}

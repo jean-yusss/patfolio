@@ -11,7 +11,9 @@ export const MediaContainer = styled.div`
 	}
 `;
 
-export const MediaTitle = styled.h1`
+export const MediaTitle = styled.h1.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	text-align: center;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
@@ -49,12 +51,16 @@ export const Class = styled.div`
 	display: flex;
 `;
 
-export const ClassName = styled.p.attrs({ className: 'neon-yellow' })`
+export const ClassName = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	color: var(--className);
 	margin-right: 0.5rem;
 `;
 
-export const Brackets = styled.p`
+export const Brackets = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-pink' }
+)`
 	color: var(--brackets);
 `;
 

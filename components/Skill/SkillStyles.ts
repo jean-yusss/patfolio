@@ -4,7 +4,9 @@ interface SkillProps {
 	margin?: string;
 }
 
-export const SkillContainer = styled.div<SkillProps>`
+export const SkillContainer = styled.div.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)<SkillProps>`
 	display: flex;
 	align-items: center;
 	margin: 1rem 0;
@@ -16,6 +18,6 @@ export const SkillContainer = styled.div<SkillProps>`
 	}
 `;
 
-export const SkillText = styled.p.attrs({ className: 'neon-blue' })`
+export const SkillText = styled.p`
 	font-weight: 600;
 `;

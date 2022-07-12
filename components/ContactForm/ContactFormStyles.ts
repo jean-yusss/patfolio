@@ -7,7 +7,9 @@ export const ContactFormContainer = styled.form.attrs({ className: 'scrollbar-hi
 	margin-bottom: 2rem;
 `;
 
-export const ContactFormTitle = styled.h1`
+export const ContactFormTitle = styled.h1.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	text-align: center;
 	font-size: 1.125rem;
 	line-height: 1.75rem;
@@ -61,8 +63,13 @@ export const ErrorContainer = styled.div`
 
 export const Error = styled.p`
 	margin-left: 0.25rem;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
+	font-size: 0.75rem;
+	line-height: 1rem;
+
+	@media (min-width: 500px) {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
 `;
 
 export const SubmitButton = styled.button`

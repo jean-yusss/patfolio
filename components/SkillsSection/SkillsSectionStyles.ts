@@ -7,8 +7,6 @@ import Comment from '../../components/Comment/Comment';
 export const SkillsSectionContainer = styled.section.attrs({
 	className: 'scrollbar-hide'
 })`
-	margin-bottom: 2rem;
-
 	@media (min-width: 1024px) {
 		overflow-y: scroll;
 	}
@@ -18,12 +16,17 @@ export const SkillsSectionContainer = styled.section.attrs({
 	}
 `;
 
-export const SkillsBox = styled.div`
-	border-width: 1px;
+export const SkillsBox = styled.div.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue-box' }
+)`
+	border: 1px solid white;
 	border-radius: 0.5rem;
+	margin: 2rem 0.5rem;
 `;
 
-export const SkillsTitle = styled.h2.attrs({ className: 'neon-red' })`
+export const SkillsTitle = styled.h2.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-red' }
+)`
 	text-align: center;
 	margin-top: 0.5rem;
 	font-weight: 600;

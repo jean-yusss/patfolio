@@ -1,6 +1,6 @@
 const VueTheme = `
 	--activityBar-activeBackground: #002b36;
-	--activityBar-activeBorder: 2px solid #19f9d8;
+	--activityBar-activeBorder: #19f9d8;
 	--activityBar-activeForeground: #19f9d8;
 	--activityBar-background: #002b36;
 	--activityBar-border: none;

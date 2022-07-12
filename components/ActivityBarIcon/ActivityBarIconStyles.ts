@@ -7,20 +7,20 @@ interface ActivityBarIconProps {
 
 const ActiveStyles = css`
 	background-color: var(--activityBar-activeBackground);
-	border-left: var(--activityBar-activeBorder);
+	border-left-color: var(--activityBar-activeBorder);
 	color: var(--activityBar-activeForeground);
 `;
 
-const InactiveStyles = css`
-	border-left: 2px solid transparent;
+const SynthWaveActiveStyles = css`
+	${ActiveStyles};
+	box-shadow: inset 0 -5px 25px #fc28a825;
 `;
 
 export const IconContainer = styled.div<ActivityBarIconProps>`
-	${({ path, router }) => (path === router ? ActiveStyles : InactiveStyles)};
+	border-left: 2px solid transparent;
+
+	${({ path, router }) => path === router && ActiveStyles}
 
 	${({ path, router, theme }) =>
-		path === router &&
-		theme.includes('Synth') &&
-		ActiveStyles &&
-		'box-shadow: inset 0 -5px 25px #fc28a825'};
+		path === router && theme.includes('Synth') && SynthWaveActiveStyles};
 `;

@@ -1,6 +1,6 @@
 const Nord = `
   --activityBar-activeBackground: #3b4252;
-	--activityBar-activeBorder: 2px solid #88c0d0;
+	--activityBar-activeBorder: #88c0d0;
 	--activityBar-activeForeground: #d8dee9;
 	--activityBar-background: #2e3440;
 	--activityBar-border: none;

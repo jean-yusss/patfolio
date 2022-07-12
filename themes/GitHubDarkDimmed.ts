@@ -1,6 +1,6 @@
 const GitHubDarkDimmed = `
   --activityBar-activeBackground: #bd93f910;
-	--activityBar-activeBorder: 2px solid #ec775c;
+	--activityBar-activeBorder: #ec775c;
 	--activityBar-activeForeground: #adbac7;
 	--activityBar-background: #22272e;
 	--activityBar-border: 1px solid #444c56;
@@ -49,16 +49,16 @@ const GitHubDarkDimmed = `
 	--titleBar-border: 1px solid #444c56;
 	--titleBar-foreground: #768390;
 
-	--asterisk: #e5534b;
+	--asterisk: #ec775c;
 	--brackets: #6cb6ff;
 	--className: #6cb6ff;
 	--colon: #a0a0a0;
 	--comment: #dcbdfb;
-	--contact-border: #e5534b;
-	--contactButton-background: #e5534b;
+	--contact-border: #ec775c;
+	--contactButton-background: #ec775c;
 	--contactButton-foreground: #ffffff;
-	--contactButton-hoverBackground: #e5534bf1;
-	--contact-error: #e5534b;
+	--contactButton-hoverBackground: #e5534b;
+	--contact-error: #ec775c;
 	--equalSign: #f47067;
 	--fontStyle: normal;
 	--key: #b392f0;

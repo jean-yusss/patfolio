@@ -9,6 +9,7 @@ import ShadesOfPurple from '../../themes/ShadesOfPurple';
 import VueTheme from '../../themes/VueTheme';
 
 import tagStyles from '../../styles/tagStyles';
+import neonDreams from '../../styles/neonDreams';
 
 const CustomStyles = createGlobalStyle`
 	:root {
@@ -30,7 +31,7 @@ const CustomStyles = createGlobalStyle`
 		${WinterIsComing} 
 	};
 
-	/* SynthWave '84 (Neon Dreams) Theme */
+	/* SynthWave '84 Theme */
 	[data-theme="SynthWave '84"] { 
 		${SynthWave84} 
 	};
@@ -52,6 +53,9 @@ const CustomStyles = createGlobalStyle`
 
 	/* ProjectCard Tag Styles */
 	${tagStyles}
+
+	/* SynthWave '84 Neon Dreams Styles */
+	${neonDreams}
 `;
 
 const GlobalStyles = () => <CustomStyles />;

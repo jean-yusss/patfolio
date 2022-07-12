@@ -1,6 +1,6 @@
 const SynthWave84 = `
   --activityBar-activeBackground: #171520;
-	--activityBar-activeBorder: 2px solid transparent;
+	--activityBar-activeBorder: transparent;
 	--activityBar-activeForeground: #ffffffcc;
 	--activityBar-background: #171520;
 	--activityBar-border: none;
@@ -51,7 +51,7 @@ const SynthWave84 = `
 
 	--asterisk: #fc28a8;
 	--brackets: #ffd700;
-	--className: #f4eee4;
+	--className: #ffffff;
 	--colon: #bbbbbb;
 	--comment: #848bbd;
 	--contact-border: #fc28a8;
@@ -59,30 +59,15 @@ const SynthWave84 = `
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #fc28a8f1;
 	--contact-error: #fc28a8;
-	--equalSign: #f4eee4;
+	--equalSign: #ffffff;
 	--fontStyle: normal;
-	--key: #72f1b8; 
+	--key: #ffffff; 
 	--projectCard: #241b2f;
 	--semicolon: #bbbbbb;
-	--string: #ff8b39;
-	--tag: #fff5f6;
-	--tag-brackets: #fdfdfd;
-	--value: #fff5f6;
-
-	.neon-yellow {
-		color: #f4eee4;
-		text-shadow: 0 0 2px #000, 0 0 10px #f39f0575, 0 0 5px #f39f0575, 0 0 25px #f39f0575;
-	}
-
-	.neon-blue {
-		color: #fdfdfd;
-		text-shadow: 0 0 2px #000, 0 0 10px #03edf975, 0 0 5px #03edf975, 0 0 25px #03edf975;
-	}
-
-	.neon-red {
-		color: #fff5f6;
-		text-shadow: 0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75;
-	}
+	--string: #ffffff;
+	--tag: #ffffff;
+	--tag-brackets: #ffffff;
+	--value: #ffffff;
 `;
 
 export default SynthWave84;

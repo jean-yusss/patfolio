@@ -7,7 +7,9 @@ export const ProjectsContainer = styled.div.attrs({ className: 'scrollbar-hide' 
 	overflow-y: scroll;
 `;
 
-export const ProjectsTitle = styled.h1`
+export const ProjectsTitle = styled.h1.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	text-align: center;

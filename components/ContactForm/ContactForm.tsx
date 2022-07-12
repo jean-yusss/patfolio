@@ -1,4 +1,5 @@
 import toast from 'react-hot-toast';
+import { useTheme } from 'next-themes';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
 import getIcon from '../../utils/getIcon';
@@ -6,6 +7,8 @@ import getIcon from '../../utils/getIcon';
 import * as S from './ContactFormStyles';
 
 const ContactForm = () => {
+	const { theme } = useTheme();
+
 	const {
 		register,
 		handleSubmit,
@@ -32,7 +35,7 @@ const ContactForm = () => {
 
 	return (
 		<S.ContactFormContainer onSubmit={handleSubmit(onSubmit)}>
-			<S.ContactFormTitle>Or Contact Me Here!</S.ContactFormTitle>
+			<S.ContactFormTitle theme={theme}>Or Contact Me Here!</S.ContactFormTitle>
 
 			<S.Form>
 				<S.NameContainer>

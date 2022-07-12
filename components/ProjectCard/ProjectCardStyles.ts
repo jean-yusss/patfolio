@@ -27,13 +27,17 @@ export const ImageContainer = styled.div`
 	border-top-right-radius: 0.5rem;
 `;
 
-export const ProjectTitle = styled.h2`
+export const ProjectTitle = styled.h2.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 	text-align: center;
 `;
 
-export const ProjectDescription = styled.p`
+export const ProjectDescription = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	text-align: center;
@@ -59,7 +63,9 @@ export const Tag = styled.p`
 	cursor: pointer;
 `;
 
-export const LinkContainer = styled.div`
+export const LinkContainer = styled.div.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
 	padding-bottom: 1rem;

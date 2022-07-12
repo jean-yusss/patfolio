@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
-export const SettingsContainer = styled.div`
+export const SettingsContainer = styled.div.attrs(({ theme }) =>
+	theme.includes('Synth')
+		? { className: 'scrollbar-hide neon-orange' }
+		: { className: 'scrollbar-hide' }
+)`
 	height: 100%;
 	width: 100%;
 	overflow-y: scroll;
 	padding: 1rem;
+	padding-bottom: 3rem;
 `;
 
 export const SettingsTitle = styled.h1`
@@ -18,7 +23,7 @@ export const SettingsTitle = styled.h1`
 export const Themes = styled.div`
 	display: grid;
 	grid-template-columns: repeat(1, minmax(0, 1fr));
-	gap: 2rem;
+	gap: 1rem;
 	margin-top: 2rem;
 
 	@media (min-width: 530px) {

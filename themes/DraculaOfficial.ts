@@ -1,6 +1,6 @@
 const DraculaOfficial = `
 	--activityBar-activeBackground: #bd93f910;
-	--activityBar-activeBorder: 2px solid #ff79c680;
+	--activityBar-activeBorder: #ff79c680;
 	--activityBar-activeForeground: #f8f8f2;
 	--activityBar-background: #343746;
 	--activityBar-border: none;

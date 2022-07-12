@@ -1,6 +1,6 @@
 const ShadesOfPurple = `
 	--activityBar-activeBackground: #222244;
-	--activityBar-activeBorder: 2px solid #6943ff62;
+	--activityBar-activeBorder: #6943ff62;
 	--activityBar-activeForeground: #ffffff;
 	--activityBar-background: #28284e;
 	--activityBar-border: none;
@@ -49,16 +49,16 @@ const ShadesOfPurple = `
 	--titleBar-border: none;
 	--titleBar-foreground: #ffffff;
 
-	--asterisk: #fad000;
+	--asterisk: #b362ff;
 	--brackets: #ffd700;
 	--className: #fad000;
 	--colon: #e1efff;
 	--comment: #b362ff;
-	--contact-border: #fad000;
-	--contactButton-background: #fad000;
+	--contact-border: #b362ff;
+	--contactButton-background: #b362ff;
 	--contactButton-foreground: #ffffff;
-	--contactButton-hoverBackground: #5d37f0;
-	--contact-error: #fad000;
+	--contactButton-hoverBackground: #fad000;
+	--contact-error: #b362ff;
 	--equalSign: #ff9d00;
 	--fontStyle: normal;
 	--key: #a5ff90;

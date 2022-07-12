@@ -5,7 +5,6 @@ export const ThemeCardContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	padding: 1rem;
-	border-radius: 0.5rem;
 `;
 
 export const ImageContainer = styled.div`

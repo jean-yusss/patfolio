@@ -1,21 +1,27 @@
+import { useTheme } from 'next-themes';
+
 import * as S from './H1Styles';
 
-const H1 = ({ title }: H1Props) => (
-	<S.H1Container>
-		<S.TagContainer>
-			<S.TagBrackets>{'<'}</S.TagBrackets>
-			<S.Tag>h1</S.Tag>
-			<S.TagBrackets>{'>'}</S.TagBrackets>
-		</S.TagContainer>
+const H1 = ({ title }: H1Props) => {
+	const { theme } = useTheme();
 
-		<S.Title>{title}</S.Title>
+	return (
+		<S.H1Container>
+			<S.TagContainer>
+				<S.TagBrackets theme={theme}>{'<'}</S.TagBrackets>
+				<S.Tag theme={theme}>h1</S.Tag>
+				<S.TagBrackets theme={theme}>{'>'}</S.TagBrackets>
+			</S.TagContainer>
 
-		<S.TagContainer>
-			<S.TagBrackets>{'</'}</S.TagBrackets>
-			<S.Tag>h1</S.Tag>
-			<S.TagBrackets>{'>'}</S.TagBrackets>
-		</S.TagContainer>
-	</S.H1Container>
-);
+			<S.Title theme={theme}>{title}</S.Title>
+
+			<S.TagContainer>
+				<S.TagBrackets theme={theme}>{'</'}</S.TagBrackets>
+				<S.Tag theme={theme}>h1</S.Tag>
+				<S.TagBrackets theme={theme}>{'>'}</S.TagBrackets>
+			</S.TagContainer>
+		</S.H1Container>
+	);
+};
 
 export default H1;

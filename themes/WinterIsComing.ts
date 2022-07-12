@@ -1,6 +1,6 @@
 const WinterIsComing = `
   --activityBar-activeBackground: none;
-	--activityBar-activeBorder: 2px solid #99d0f7;
+	--activityBar-activeBorder: #99d0f7;
 	--activityBar-activeForeground: #99d0f7;
 	--activityBar-background: #011627;
 	--activityBar-border: 1px solid #219fd544;

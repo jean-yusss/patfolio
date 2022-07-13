@@ -58,10 +58,16 @@ export const TailwindClasses = styled.span.attrs(
 	color: var(--string);
 `;
 
+export const TextContainer = styled.div`
+	& > * + * {
+		margin-top: 0.75rem;
+	}
+`;
+
 export const TagText = styled.p.attrs(
 	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
 )`
-	margin: 0.25rem 1.25rem;
+	padding: 0 1.25rem;
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	font-weight: 400;

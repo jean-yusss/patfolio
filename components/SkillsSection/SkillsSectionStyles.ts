@@ -63,12 +63,7 @@ export const SQL = styled(Skill).attrs({
 
 export const React = styled(Skill).attrs({
 	icon: 'big-react',
-	skill: 'React'
-})``;
-
-export const ReactNative = styled(Skill).attrs({
-	icon: 'big-react',
-	skill: 'React Native'
+	skill: 'React & React Native'
 })``;
 
 export const NextJS = styled(Skill).attrs({

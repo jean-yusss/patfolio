@@ -23,7 +23,6 @@ const SkillsSection = () => {
 			<S.SkillsBox theme={theme}>
 				<S.SkillsTitle theme={theme}>Libraries &amp; Frameworks</S.SkillsTitle>
 				<S.React />
-				<S.ReactNative />
 				<S.NextJS />
 				<S.NodeJS />
 				<S.GraphQL />

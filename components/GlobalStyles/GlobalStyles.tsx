@@ -14,7 +14,7 @@ import neonDreams from '../../styles/neonDreams';
 
 const CustomStyles = createGlobalStyle`
 	:root {
-		font-style: var(--fontStyle)
+		font-style: var(--fontStyle);
 	}
 
 	/* Dracula Official Theme */
@@ -62,6 +62,13 @@ const CustomStyles = createGlobalStyle`
 
 	/* SynthWave '84 Neon Dreams Styles */
 	${neonDreams}
+
+	.page-container {
+		height: 100%;
+		width: 100%;
+		overflow-y: scroll;
+		padding: 1rem;
+	}
 `;
 
 const GlobalStyles = () => <CustomStyles />;

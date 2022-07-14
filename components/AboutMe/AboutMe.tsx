@@ -16,7 +16,7 @@ const AboutMe = () => {
 				<S.EqualSign theme={theme}>=</S.EqualSign>
 				<S.TailwindClasses
 					theme={theme}
-				>{`'text-sm text-justify font-normal ml-5'`}</S.TailwindClasses>
+				>{`'text-sm text-justify ml-5 space-y-3'`}</S.TailwindClasses>
 				<S.TagBrackets theme={theme}>{'>'}</S.TagBrackets>
 
 				<S.TextContainer>
@@ -28,19 +28,19 @@ const AboutMe = () => {
 					</S.TagText>
 
 					<S.TagText theme={theme}>
-						{`Although I majored in mechanical engineering, I got a taste of coding in 
-						several courses with MATLAB. In my last year of college, I've decided to 
-						take up a computer science minor and enjoyed it more than I thought that I 
-						would. In fact, if I could do it over again, I would've majored in computer 
-						science instead. Ever since, I've taught myself how to code in hopes to make
-						my web development passion into reality.`}
+						{`Ever since, I've taught myself how to code in hopes to turn my new-found
+						passion into reality. From the moment I first produced "Hello World!" in my
+						console, I knew that I was hooked to software development. Software
+						development has never been "just a job" for me, but an opportunity engaging
+						challenges to continually learn and develop my skills in creating applications
+						and quality code. What started as a simple "Hello World!" has become a
+						full-fledged passion that only gets more exciting as time goes by!`}
 					</S.TagText>
 
 					<S.TagText theme={theme}>
 						Fast forward to today, I make websites and applications for people as
-						freelance work. My main focus right now is to build quality applications and
-						write clean code. Some technologies that I enjoy working with recently
-						include: React, Next.js and TypeScript.
+						freelance work. Some technologies that I enjoy working with recently include:
+						React, Next.js and TypeScript.
 					</S.TagText>
 				</S.TextContainer>
 

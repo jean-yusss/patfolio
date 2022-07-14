@@ -4,6 +4,8 @@ export const LayoutContainer = styled.div`
 	height: 100vh;
 	width: 100vw;
 	overflow: hidden;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
 `;
 
 export const MainContainer = styled.main`

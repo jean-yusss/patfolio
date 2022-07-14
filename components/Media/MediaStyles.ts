@@ -3,7 +3,15 @@ import styled from 'styled-components';
 import CssAttribute from '../CssAttribute/CssAttribute';
 
 export const MediaContainer = styled.div`
-	font-weight: 500;
+	@media (min-width: 400px) {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	@media (min-width: 640px) {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
 
 	@media (min-width: 1024px) {
 		border-right: 1.5px solid var(--contact-border);

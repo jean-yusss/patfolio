@@ -42,7 +42,5 @@ export const MaximizeButton = styled.div`
 
 export const TitleBarTitle = styled.h1`
 	color: var(--titleBar-foreground);
-	font-size: 0.875rem;
-	line-height: 1.25rem;
 	text-align: center;
 `;

@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components';
 import InputField from '../InputField/InputField';
 
 export const ContactFormContainer = styled.form.attrs({ className: 'scrollbar-hide' })`
-	font-weight: 500;
 	margin-bottom: 2rem;
 `;
 
@@ -21,6 +20,19 @@ export const ContactFormTitle = styled.h1.attrs(
 `;
 
 export const Form = styled.div`
+	font-size: 0.75rem;
+	line-height: 1rem;
+
+	@media (min-width: 400px) {
+		font-size: 0.875rem;
+		line-height: 1.25rem;
+	}
+
+	@media (min-width: 640px) {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
 	& > * + * {
 		margin-top: 0.75rem;
 	}
@@ -66,7 +78,7 @@ export const Error = styled.p`
 	font-size: 0.75rem;
 	line-height: 1rem;
 
-	@media (min-width: 500px) {
+	@media (min-width: 640px) {
 		font-size: 0.875rem;
 		line-height: 1.25rem;
 	}
@@ -77,21 +89,8 @@ export const SubmitButton = styled.button`
 	width: 100%;
 	border-radius: 0.375rem;
 	text-transform: uppercase;
-	font-size: 0.75rem;
-	line-height: 1rem;
-	font-weight: 700;
 	color: var(--contactButton-foreground);
 	background-color: var(--contactButton-background);
-
-	@media (min-width: 400px) {
-		font-size: 0.875rem;
-		line-height: 1.25rem;
-	}
-
-	@media (min-width: 500px) {
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
 
 	&:hover {
 		background-color: var(--contactButton-hoverBackground);

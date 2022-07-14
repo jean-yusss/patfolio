@@ -32,14 +32,13 @@ export const ProjectTitle = styled.h2.attrs(
 )`
 	font-size: 1.25rem;
 	line-height: 1.75rem;
+	font-weight: 500;
 	text-align: center;
 `;
 
 export const ProjectDescription = styled.p.attrs(
 	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
 )`
-	font-size: 0.875rem;
-	line-height: 1.25rem;
 	text-align: center;
 `;
 
@@ -73,6 +72,8 @@ export const LinkContainer = styled.div.attrs(
 
 export const ProjectLink = styled.a.attrs({ target: '_blank' })`
 	text-align: center;
+	font-size: 1rem;
+	font-weight: 500;
 
 	&:hover {
 		text-decoration: underline;

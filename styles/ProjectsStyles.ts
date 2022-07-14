@@ -1,11 +1,8 @@
 import styled from 'styled-components';
 
-export const ProjectsContainer = styled.div.attrs({ className: 'scrollbar-hide' })`
-	height: 100%;
-	width: 100%;
-	padding: 1rem;
-	overflow-y: scroll;
-`;
+export const ProjectsContainer = styled.div.attrs({
+	className: 'scrollbar-hide page-container'
+})``;
 
 export const ProjectsTitle = styled.h1.attrs(
 	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }

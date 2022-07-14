@@ -46,8 +46,4 @@ export const TabContainer = styled.div<TabProps>`
 		path === router && theme.includes('Synth') && SynthWaveActiveStyles};
 `;
 
-export const TabText = styled.p`
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 400;
-`;
+export const TabText = styled.p``;

@@ -2,13 +2,9 @@ import styled from 'styled-components';
 
 export const SettingsContainer = styled.div.attrs(({ theme }) =>
 	theme.includes('Synth')
-		? { className: 'scrollbar-hide neon-orange' }
-		: { className: 'scrollbar-hide' }
+		? { className: 'scrollbar-hide neon-orange page-container' }
+		: { className: 'scrollbar-hide page-container' }
 )`
-	height: 100%;
-	width: 100%;
-	overflow-y: scroll;
-	padding: 1rem;
 	padding-bottom: 3rem;
 `;
 

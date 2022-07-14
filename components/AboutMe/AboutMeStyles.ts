@@ -68,9 +68,6 @@ export const TagText = styled.p.attrs(
 	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
 )`
 	padding: 0 1.25rem;
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 400;
 	text-align: justify;
 
 	@media (min-width: 1024px) {

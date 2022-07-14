@@ -32,5 +32,4 @@ export const FileContainer = styled.div<FileProps>`
 export const FileText = styled.p`
 	font-size: 0.875rem;
 	line-height: 1.25rem;
-	font-weight: 400;
 `;

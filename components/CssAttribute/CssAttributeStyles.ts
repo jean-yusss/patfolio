@@ -21,7 +21,6 @@ export const Key = styled.p.attrs(
 
 export const Colon = styled.p`
 	margin-left: 0.125rem;
-	font-weight: 600;
 	color: var(--colon);
 `;
 
@@ -48,6 +47,5 @@ export const Value = styled.a.attrs<ValueProps>(({ href, theme }) =>
 
 export const SemiColon = styled.p`
 	margin-left: 0.125rem;
-	font-weight: 600;
 	color: var(--semicolon);
 `;

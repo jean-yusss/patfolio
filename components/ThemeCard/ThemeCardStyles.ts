@@ -5,6 +5,7 @@ export const ThemeCardContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	padding: 1rem;
+	font-weight: 600;
 `;
 
 export const ImageContainer = styled.div`
@@ -16,7 +17,6 @@ export const ImageContainer = styled.div`
 export const ThemeName = styled.h2`
 	font-size: 1.125rem;
 	line-height: 1.75rem;
-	font-weight: 600;
 	margin-top: 0.25rem;
 `;
 
@@ -30,17 +30,12 @@ export const ThemeDevelopersCntainer = styled.div`
 `;
 
 export const ThemeDevelopers = styled.p`
-	font-size: 0.875rem;
-	line-height: 1.25rem;
 	font-weight: 500;
 `;
 
 export const SetThemeButton = styled.button`
 	color: var(--extensionButton-prominentForeground);
 	background-color: var(--extensionButton-prominentBackground);
-	font-size: 0.875rem;
-	line-height: 1.25rem;
-	font-weight: 600;
 	padding: 0.125rem 0.625rem;
 	margin-top: 0.5rem;
 

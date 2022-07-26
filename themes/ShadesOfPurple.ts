@@ -49,25 +49,37 @@ const ShadesOfPurple = `
 	--titleBar-border: none;
 	--titleBar-foreground: #ffffff;
 
+	--arrowFunction: #fad000;
 	--asterisk: #b362ff;
 	--brackets: #ffd700;
 	--className: #fad000;
 	--colon: #e1efff;
 	--comment: #b362ff;
+	--constKeyword: #ff9d00;
 	--contact-border: #b362ff;
 	--contactButton-background: #b362ff;
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #fad000;
 	--contact-error: #b362ff;
 	--equalSign: #ff9d00;
+	--exportDefault: #ff9d00;
+	--exportedVariable: #9effff;
+	--exportStatement: #ff9d00;
 	--fontStyle: normal;
+	--importName: #9effff;
+	--importStatement: #ff9d00;
+	--importFrom: #ff9d00;
+	--importPackage: #a5ff90;
 	--key: #a5ff90;
+	--parenthesis: #fad000;
 	--projectCard: #222244;
+	--quotations: #a5ff90;
 	--semicolon: #e1efff;
 	--string: #a5ff90;
 	--tag: #9effff;
 	--tag-brackets: #e1efff;
 	--value: #9effff;
+	--variableName: #fad000;
 `;
 
 export default ShadesOfPurple;

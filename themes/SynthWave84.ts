@@ -49,25 +49,37 @@ const SynthWave84 = `
 	--titleBar-border: none;
 	--titleBar-foreground: #cccccc;
 
+	--arrowFunction: #ffffff;
 	--asterisk: #fc28a8;
 	--brackets: #ffffff;
 	--className: #ffffff;
 	--colon: #bbbbbb;
 	--comment: #848bbd;
+	--constKeyword: #ffffff;
 	--contact-border: #fc28a8;
 	--contactButton-background: #fc28a8;
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #fc28a8f1;
 	--contact-error: #fc28a8;
 	--equalSign: #ffffff;
+	--exportDefault: #ffffff;
+	--exportedVariable: #ffffff;
+	--exportStatement: #ffffff;
 	--fontStyle: normal;
+	--importName: #ffffff;
+	--importStatement: #ffffff;
+	--importFrom: #ffffff;
+	--importPackage: #ffffff;
 	--key: #ffffff; 
+	--parenthesis: #ffffff;
 	--projectCard: #241b2f;
+	--quotations: #ffffff;
 	--semicolon: #bbbbbb;
 	--string: #ffffff;
 	--tag: #ffffff;
 	--tag-brackets: #ffffff;
 	--value: #ffffff;
+	--variableName: #ffffff;
 `;
 
 export default SynthWave84;

@@ -49,25 +49,37 @@ const DraculaOfficial = `
 	--titleBar-border: none;
 	--titleBar-foreground: #f8f8f2;
 
+	--arrowFunction: #ff79c6;
 	--asterisk: #bd93f9;
 	--brackets: #da70d6;
 	--className: #50fa7b;
 	--colon: #ff79c6;
 	--comment: #6272a4;
+	--constKeyword: #ff79c6;
 	--contact-border: #bd93f9;
 	--contactButton-background: #bd93f9;
 	--contactButton-foreground: #f8f8f2;
 	--contactButton-hoverBackground: #bd93f9dd;
 	--contact-error: #bd93f9;
-	--equalSign: #f8f8f2;
+	--equalSign: #ff79c6;
+	--exportDefault: #ff79c6;
+	--exportedVariable: #bd93f9;
+	--exportStatement: #ff79c6;
 	--fontStyle: normal;
+	--importName: #f8f8f2;
+	--importStatement: #ff79c6;
+	--importFrom: #ff79c6;
+	--importPackage: #f1fa8c;
 	--key: #8be9fd;
+	--parenthesis: #f8f8f2;
 	--projectCard: #21222c;
+	--quotations: #f1fa8c;
 	--semicolon: #f8f8f2;
 	--string: #f1fa8c;
 	--tag: #ff79c6;
 	--tag-brackets: #f8f8f2;
 	--value: #bd93f9;
+	--variableName: #50fa7b;
 `;
 
 export default DraculaOfficial;

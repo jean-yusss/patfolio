@@ -49,25 +49,37 @@ const GitHubDarkDimmed = `
 	--titleBar-border: 1px solid #444c56;
 	--titleBar-foreground: #768390;
 
+	--arrowFunction: #f47067;
 	--asterisk: #ec775c;
 	--brackets: #6cb6ff;
 	--className: #6cb6ff;
 	--colon: #a0a0a0;
 	--comment: #dcbdfb;
+	--constKeyword: #f47067;
 	--contact-border: #ec775c;
 	--contactButton-background: #ec775c;
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #e5534b;
 	--contact-error: #ec775c;
 	--equalSign: #f47067;
+	--exportDefault: #f47067;
+	--exportedVariable: #6796e6;
+	--exportStatement: #f47067;
 	--fontStyle: normal;
+	--importName: #adbac7;
+	--importStatement: #f47067;
+	--importFrom: #f47067;
+	--importPackage: #96d0ff;
 	--key: #b392f0;
+	--parenthesis: #6cb6ff;
 	--projectCard: #1c2128;
+	--quotations: #96d0ff;
 	--semicolon: #a0a0a0;
 	--string: #96d0ff;
 	--tag: #8ddb8c;
 	--tag-brackets: #adbac7;
 	--value: #8ddb8c;
+	--variableName: #dcbdfb;
 `;
 
 export default GitHubDarkDimmed;

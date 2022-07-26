@@ -12,7 +12,9 @@ export const FlexContainer = styled.div`
 	display: flex;
 `;
 
-export const IndentedStatement = styled.div`
+export const IndentedStatement = styled.div.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-red' }
+)`
 	display: flex;
 	margin-left: 1rem;
 
@@ -25,7 +27,9 @@ export const ImportStatement = styled.p`
 	color: var(--importStatement);
 `;
 
-export const ImportName = styled.p`
+export const ImportName = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--importName);
 `;
 
@@ -33,11 +37,15 @@ export const ImportFrom = styled.p`
 	color: var(--importFrom);
 `;
 
-export const Quotations = styled.p`
+export const Quotations = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--quotations);
 `;
 
-export const ImportPackage = styled.p`
+export const ImportPackage = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--importPackage);
 `;
 
@@ -45,7 +53,9 @@ export const ConstKeyword = styled.p`
 	color: var(--constKeyword);
 `;
 
-export const VariableName = styled.p`
+export const VariableName = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--variableName);
 `;
 
@@ -57,16 +67,22 @@ export const Parenthesis = styled.p`
 	color: var(--parenthesis);
 `;
 
-export const ArrowFunction = styled.p`
+export const ArrowFunction = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--arrowFunction);
 `;
 
-export const SmallText = styled.p`
+export const SmallText = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	font-size: clamp(1rem, 5vw, 1.5rem);
 	margin-left: 2rem;
 `;
 
-export const BigText = styled.p`
+export const BigText = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-yellow' }
+)`
 	margin-left: 2rem;
 	font-size: clamp(2rem, 8vw, 3rem);
 	line-height: 1;
@@ -80,7 +96,9 @@ export const ExportDefault = styled.p`
 	color: var(--exportDefault);
 `;
 
-export const ExportedVariable = styled.p`
+export const ExportedVariable = styled.p.attrs(
+	({ theme }) => theme.includes('Synth') && { className: 'neon-blue' }
+)`
 	color: var(--exportedVariable);
 `;
 

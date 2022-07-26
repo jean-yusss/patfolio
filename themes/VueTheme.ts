@@ -49,25 +49,37 @@ const VueTheme = `
 	--titleBar-border: none;
 	--titleBar-foreground: #aeb1b0;
 
+	--arrowFunction: #f48fb1dc;
 	--asterisk: #09cbdd;
 	--brackets: #ffd700;
 	--className: #ffcc95e7;
 	--colon: #a7a2a2;
 	--comment: #8a8787;
+	--constKeyword: #ff2c6bf1;
 	--contact-border: #09cbdd;
 	--contactButton-background: #00e5ffcc;
 	--contactButton-foreground: #e6e6e6;
 	--contactButton-hoverBackground: #00acc1;
 	--contact-error: #09cbdd;
 	--equalSign: #ffcc95e7;
+	--exportDefault: #64ffdbda;
+	--exportedVariable: #a1d7da;
+	--exportStatement: #ff2c6bf1;
 	--fontStyle: normal;
+	--importName: #a1d7da;
+	--importStatement: #ff2c6bf1;
+	--importFrom: #ff2c6bf1;
+	--importPackage: #00abc1da;
 	--key: #f48fb1dc;
+	--parenthesis: #ffd700;
 	--projectCard: #09698180;
+	--quotations: #00abc1da;
 	--semicolon: #a7a2a2;
 	--string: #00abc1da;
 	--tag: #ff2c6bf1;
 	--tag-brackets: #c5c5c5f1;
 	--value: #09cbdd;
+	--variableName: #09cbdd;
 `;
 
 export default VueTheme;

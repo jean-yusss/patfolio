@@ -49,25 +49,37 @@ const WinterIsComing = `
 	--titleBar-border: 1px solid #303030;
 	--titleBar-foreground: #eeefff;
 
+	--arrowFunction: #00bff9;
 	--asterisk: #219fd5;
 	--brackets: #ffd700;
 	--className: #ece7cd;
 	--colon: #a7dbf7;;
 	--comment: #999999;
+	--constKeyword: #00bff9;
 	--contact-border: #219fd5;
 	--contactButton-background: #219fd5;
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #219fd5f1;
 	--contact-error: #219fd5;;
-	--equalSign: #219fd5;
+	--equalSign: #00bff9;
+	--exportDefault: #00bff9;
+	--exportedVariable: #eeffff;
+	--exportStatement: #00bff9;
   --fontStyle: italic;
+	--importName: #eeffff;
+	--importStatement: #00bff9;
+	--importFrom: #00bff9;
+	--importPackage: #bcf0c0;
 	--key: #7fdbca;
+	--parenthesis: #ffd700;
 	--projectCard: #112233;
+	--quotations: #8dec95;
 	--semicolon: #a7dbf7;
 	--string: #bcf0c0;
 	--tag: #219fd5;
 	--tag-brackets: #a7dbf7;
 	--value: #f29fd8;
+	--variableName: #92b6f4;
 `;
 
 export default WinterIsComing;

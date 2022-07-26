@@ -11,13 +11,9 @@ const Media = () => {
 
 			<S.MainContainer>
 				<S.LineContainer>
-					<S.Line>1</S.Line>
-					<S.Line>2</S.Line>
-					<S.Line>3</S.Line>
-					<S.Line>4</S.Line>
-					<S.Line>5</S.Line>
-					<S.Line>6</S.Line>
-					<S.Line>7</S.Line>
+					{[...Array(7)].map((e, i) => (
+						<S.Line key={e}>{i + 1}</S.Line>
+					))}
 				</S.LineContainer>
 
 				<S.ClassContainer>

@@ -49,25 +49,37 @@ const TokyoNightStorm = `
 	--titleBar-border: 1px solid #1b1e2e;
 	--titleBar-foreground: #7982a9;
 
+	--arrowFunction: #bb9af7;
 	--asterisk: #7aa2f7;
 	--brackets: #bb9af7;
 	--className: #bb9af7;
 	--colon: #89ddff;
 	--comment: #565f89;
+	--constKeyword: #9D7CD8;
 	--contact-border: #7aa2f7;
 	--contactButton-background: #7aa2f7;
 	--contactButton-foreground: #ffffff;
 	--contactButton-hoverBackground: #7aa2f7dd;
 	--contact-error: #7aa2f7;
 	--equalSign: #89ddff;
+	--exportDefault: #7dcfff;
+	--exportedVariable: #c0caf5;
+	--exportStatement: #7dcfff;
 	--fontStyle: normal;
+	--importName: #2ac3de;
+	--importStatement: #7dcfff;
+	--importFrom: #7dcfff;
+	--importPackage: #9ece6a;
 	--key: #2ac3de;
+	--parenthesis: #698cd6;
 	--projectCard: #1f2335;
+	--quotations: #7dcfff;
 	--semicolon: #89ddff;
 	--string: #9ece6a;
 	--tag: #f7768e;
 	--tag-brackets: #ba3c97;
 	--value: #7dcfff;
+	--variableName: #7aa2f7;
 `;
 
 export default TokyoNightStorm;

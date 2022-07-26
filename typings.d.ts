@@ -87,3 +87,8 @@ interface SettingsProps {
 interface ThemeCardProps {
 	theme: Theme;
 }
+
+interface HomeLinkProps {
+	href: string;
+	text: string;
+}
